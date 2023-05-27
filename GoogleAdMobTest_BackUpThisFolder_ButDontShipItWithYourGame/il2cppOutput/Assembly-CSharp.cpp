@@ -1,0 +1,3977 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+#include <stdint.h>
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+// System.Action`1<GoogleMobileAds.Api.AdError>
+struct Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6;
+// System.Action`1<GoogleMobileAds.Api.AdInspectorError>
+struct Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D;
+// System.Action`1<GoogleMobileAds.Api.AdValue>
+struct Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF;
+// System.Action`1<GoogleMobileAds.Common.AppState>
+struct Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79;
+// System.Action`1<GoogleMobileAds.Api.InitializationStatus>
+struct Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE;
+// System.Action`1<System.Int32Enum>
+struct Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B;
+// System.Action`1<GoogleMobileAds.Api.LoadAdError>
+struct Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C;
+// System.Action`1<System.Object>
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+// System.Action`1<GoogleMobileAds.Api.Reward>
+struct Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC;
+// System.Action`2<GoogleMobileAds.Api.AppOpenAd,GoogleMobileAds.Api.LoadAdError>
+struct Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580;
+// System.Action`2<GoogleMobileAds.Api.InterstitialAd,GoogleMobileAds.Api.LoadAdError>
+struct Action_2_t6D103D50D92EED8806671DABC525008F7D560A68;
+// System.Action`2<System.Object,System.Object>
+struct Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C;
+// System.Action`2<GoogleMobileAds.Api.RewardedAd,GoogleMobileAds.Api.LoadAdError>
+struct Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418;
+// System.Action`2<GoogleMobileAds.Api.RewardedInterstitialAd,GoogleMobileAds.Api.LoadAdError>
+struct Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E;
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83;
+// System.Collections.Generic.HashSet`1<System.String>
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
+// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>
+struct List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+// System.Object[]
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+// GoogleMobileAds.Api.AdError
+struct AdError_tA3BF7518349885A73447524367693A096B3DD1AE;
+// GoogleMobileAds.Api.AdInspectorError
+struct AdInspectorError_tD384323496C44553EA9EA953DBCFE6D24BC0534D;
+// GoogleMobileAds.Api.AdRequest
+struct AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D;
+// GoogleMobileAds.Api.AdSize
+struct AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158;
+// GoogleMobileAds.Api.AdValue
+struct AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD;
+// GoogleMobileAds.Api.AppOpenAd
+struct AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC;
+// GoogleMobileAds.Api.BannerView
+struct BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB;
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+// System.DelegateData
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2;
+// UnityEngine.GameObject
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+// GoogleAdMobController
+struct GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704;
+// GoogleMobileAds.Common.IAdErrorClient
+struct IAdErrorClient_t1070A9DCB8BBE68B67D9ECBC19949CDF415AD2BF;
+// GoogleMobileAds.Common.IAppOpenAdClient
+struct IAppOpenAdClient_t808FB0D044FBF40A9CD2EB35FC6E9DFCF2A911D1;
+// GoogleMobileAds.Common.IBannerClient
+struct IBannerClient_t09294BA982EA240BD81470F2CFB8DA17E6D7A42D;
+// GoogleMobileAds.Common.IInitializationStatusClient
+struct IInitializationStatusClient_t8FB5AA028F4FF61A5B8952A9D5546BC331877A9D;
+// GoogleMobileAds.Common.IInterstitialClient
+struct IInterstitialClient_t18D2E5ED7E33938C3CC2556409B01959F8E4C784;
+// GoogleMobileAds.Common.ILoadAdErrorClient
+struct ILoadAdErrorClient_t82CFD9A1EFB235DD188F81112DF3EAE96806A8D9;
+// GoogleMobileAds.Common.IRewardedAdClient
+struct IRewardedAdClient_t949F7B5C9EE80E93832663274F37DF3171FCADDE;
+// GoogleMobileAds.Common.IRewardedInterstitialAdClient
+struct IRewardedInterstitialAdClient_t2FC8FDCB9CA844BC20920D49A995D36DDA10E2D5;
+// GoogleMobileAds.Api.InitializationStatus
+struct InitializationStatus_t550D061D96119B8458B9FC389FBA74A1DBEB1DDD;
+// GoogleMobileAds.Api.InterstitialAd
+struct InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC;
+// UnityEngine.Events.InvokableCallList
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+// GoogleMobileAds.Api.LoadAdError
+struct LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62;
+// GoogleMobileAds.Api.MaxAdContentRating
+struct MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+// UnityEngine.Events.PersistentCallGroup
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+// GoogleMobileAds.Api.RequestConfiguration
+struct RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB;
+// GoogleMobileAds.Api.Reward
+struct Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511;
+// GoogleMobileAds.Api.RewardedAd
+struct RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09;
+// GoogleMobileAds.Api.RewardedInterstitialAd
+struct RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE;
+// System.String
+struct String_t;
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// GoogleMobileAds.Api.AdRequest/Builder
+struct Builder_t53925D96536F97B418172C0EF27AD9E6858FF348;
+// GoogleAdMobController/<>c__DisplayClass31_0
+struct U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03;
+// GoogleAdMobController/<>c__DisplayClass37_0
+struct U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D;
+// GoogleMobileAds.Api.RequestConfiguration/Builder
+struct Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_2_t6D103D50D92EED8806671DABC525008F7D560A68_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AppStateEventNotifier_t0A047576C80CBFF891C1E1A0106BA70A5E302FAE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AppState_tBC2F72F60F51FE0CB94604F23B86874654E551A5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Builder_t53925D96536F97B418172C0EF27AD9E6858FF348_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MobileAdsEventExecutor_t1185FA76E60746A4BF6150BBFC4BD17B123F380A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral07671669D0BF408F99D78A7CCEB160AEB348591A;
+IL2CPP_EXTERN_C String_t* _stringLiteral08BA74A81A934AF9DA706C535EB07F526AD6A5DA;
+IL2CPP_EXTERN_C String_t* _stringLiteral0E13354CDFFC86728642DA32EC9BB81C14F24CAE;
+IL2CPP_EXTERN_C String_t* _stringLiteral12A4CD8E89B5915DD9A4848457D9683685D4FD94;
+IL2CPP_EXTERN_C String_t* _stringLiteral1855D84BB67353C35E90BF3E2DE843D647293B82;
+IL2CPP_EXTERN_C String_t* _stringLiteral1FB3D0F71AACB93489E409A5C9B706507DCFE1E0;
+IL2CPP_EXTERN_C String_t* _stringLiteral22AD86993505183AF36FD866B24688BCA5EB6920;
+IL2CPP_EXTERN_C String_t* _stringLiteral25857A0D29D1CB0C2134856FA3BB59D661860EB3;
+IL2CPP_EXTERN_C String_t* _stringLiteral2585C7E772B801BB2F4CE7A57795C519CEAD3944;
+IL2CPP_EXTERN_C String_t* _stringLiteral27846F8E8F9DCFC5AAD0DEE89B82A9E7B58E502C;
+IL2CPP_EXTERN_C String_t* _stringLiteral2A47FBD64FEFEA3B0D4C603CB333467FB4FF315F;
+IL2CPP_EXTERN_C String_t* _stringLiteral2DC63FEC0A54B6D7D957FE891A11D0C271A9B588;
+IL2CPP_EXTERN_C String_t* _stringLiteral2EAAB770ADEDA7FB8AEA914555A59728BC27D0D8;
+IL2CPP_EXTERN_C String_t* _stringLiteral30131DD4F1A3B8143579AC2B6F65F178240307FE;
+IL2CPP_EXTERN_C String_t* _stringLiteral3273D0FC6DAFA8FD3796986EA6BB6B76EA162864;
+IL2CPP_EXTERN_C String_t* _stringLiteral347D4DE8CE1C45240E035D2BE1AE28F657D964A8;
+IL2CPP_EXTERN_C String_t* _stringLiteral37907A2B9A1E35536064975B1307D87D69EB3558;
+IL2CPP_EXTERN_C String_t* _stringLiteral3DB2F4ED354BE1A1B4B0FBF68B7A56D5A64CBD32;
+IL2CPP_EXTERN_C String_t* _stringLiteral47D494C3753404D70E19AC040E8576F84FD2F87D;
+IL2CPP_EXTERN_C String_t* _stringLiteral4CE930388BF0D0721CC71424D0AF03B46FB38DFE;
+IL2CPP_EXTERN_C String_t* _stringLiteral4ED32CB0AD5F9472E42BF86AD84273A836E3F549;
+IL2CPP_EXTERN_C String_t* _stringLiteral53C4A5383D98C14CE5D02D212618279F2893C4CE;
+IL2CPP_EXTERN_C String_t* _stringLiteral557947CBC7104D12A94110AD755C0924ACCC753E;
+IL2CPP_EXTERN_C String_t* _stringLiteral56B647C5A807F01EA99D9BCBAE38AC88312B15BA;
+IL2CPP_EXTERN_C String_t* _stringLiteral5C05F1E0B6C0273BEE770A0FB466DBCBEF4F0DB1;
+IL2CPP_EXTERN_C String_t* _stringLiteral64B56570F4FE3FE45A614B62D66279D934F4AAC1;
+IL2CPP_EXTERN_C String_t* _stringLiteral66CAB30E2676BDAED2459E66CB0746B70B05706C;
+IL2CPP_EXTERN_C String_t* _stringLiteral6A3E4380805D0C9D22128FC46083859720702DE6;
+IL2CPP_EXTERN_C String_t* _stringLiteral6E7986C599881198351373DFA64703BB0C0A0432;
+IL2CPP_EXTERN_C String_t* _stringLiteral71F9F7024ADE86F7DFA4D7C25B0F4E416E65DEB1;
+IL2CPP_EXTERN_C String_t* _stringLiteral73DFF2E0F4C1BD6A598C6066DDBAA7F6C2EFD836;
+IL2CPP_EXTERN_C String_t* _stringLiteral7C9CA88675A9235B5EAC2309EBC0152D676C274B;
+IL2CPP_EXTERN_C String_t* _stringLiteral81E3671890324C8BD7C8651AB3E06AC582F77974;
+IL2CPP_EXTERN_C String_t* _stringLiteral83C8FF61693717E85BB85B87079F36D7A22B4004;
+IL2CPP_EXTERN_C String_t* _stringLiteral851436032891ADEBB305D03B4EA08D1DFE74F69E;
+IL2CPP_EXTERN_C String_t* _stringLiteral93C343BDBD047E2E494EE31A630425485630C3DB;
+IL2CPP_EXTERN_C String_t* _stringLiteral9467F80ADE2284A2EFDDA89F430A6C07887B47BB;
+IL2CPP_EXTERN_C String_t* _stringLiteral984C1FC4AA7A7A9A7BBE68C34777A0F81366A0F2;
+IL2CPP_EXTERN_C String_t* _stringLiteral9B38965CE720A13FF60E3BC230C25CEEEE60298B;
+IL2CPP_EXTERN_C String_t* _stringLiteral9F70D49A3CFBA6BF40F48281D01DD86447513F74;
+IL2CPP_EXTERN_C String_t* _stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A;
+IL2CPP_EXTERN_C String_t* _stringLiteral9FD316DCDB3554E840BC8AB01E84B7D184B48986;
+IL2CPP_EXTERN_C String_t* _stringLiteral9FF7A2E483EFE984C9DF84AE39387E52B7F7B15F;
+IL2CPP_EXTERN_C String_t* _stringLiteralA8CEF24EBCDB4FDC85824664D715238B79AB6463;
+IL2CPP_EXTERN_C String_t* _stringLiteralAD3518EC06BB29C9EBD2FCB5F273A28C8EBDBED3;
+IL2CPP_EXTERN_C String_t* _stringLiteralB06A1C48147F9D2C9C7F7A12A70874CA756F2A15;
+IL2CPP_EXTERN_C String_t* _stringLiteralB3BF68D83657EB702FC892DA072DC89D0896D5E6;
+IL2CPP_EXTERN_C String_t* _stringLiteralB5C88BC08E626365BC4DB139524274BF7D909DBC;
+IL2CPP_EXTERN_C String_t* _stringLiteralBA839AA9B952F20BBBB5E83609055E3B6BB000F8;
+IL2CPP_EXTERN_C String_t* _stringLiteralBBC973E8B542FC1CD84E1DA7DFAD82E062E662A6;
+IL2CPP_EXTERN_C String_t* _stringLiteralC1226F1B10B458B1321D5094305DA543F5D145AC;
+IL2CPP_EXTERN_C String_t* _stringLiteralC6264F3E99DD53581133B065E278BB5734C025F8;
+IL2CPP_EXTERN_C String_t* _stringLiteralC76DF77A3EF4FC74768C0A2D246E58231B842A5A;
+IL2CPP_EXTERN_C String_t* _stringLiteralC8124B69AB4415E8EB4986D939AFE0256BB1102D;
+IL2CPP_EXTERN_C String_t* _stringLiteralCC7AC7972FA936EC38F58B7B8FCF084432CA5039;
+IL2CPP_EXTERN_C String_t* _stringLiteralCF9B4CADDF0DDAE0A5612746B2DA04764DE738AF;
+IL2CPP_EXTERN_C String_t* _stringLiteralD6EA6C2C73D5196FD60E3F481D5F4B190485AE35;
+IL2CPP_EXTERN_C String_t* _stringLiteralDF950C75FC33D6F89E644D6B4612500EB916FF79;
+IL2CPP_EXTERN_C String_t* _stringLiteralE02B73E6BE0EF97EDFF65D9CA934AFCC538789BC;
+IL2CPP_EXTERN_C String_t* _stringLiteralE1B77BC58FA1C48C0D7C320A13D9EED379EF317F;
+IL2CPP_EXTERN_C String_t* _stringLiteralE418146F11583B0E94D48C1BB21A105CF50CF298;
+IL2CPP_EXTERN_C String_t* _stringLiteralE856FE8A52B189401BF54DD53FB248E3F4712FE4;
+IL2CPP_EXTERN_C String_t* _stringLiteralE9D7A53879ED01C7496E70BD3C0456EE5AA536EA;
+IL2CPP_EXTERN_C String_t* _stringLiteralF1235716461AE965FE53CB513412DBB0E944B470;
+IL2CPP_EXTERN_C String_t* _stringLiteralF1E3E7FFF19723E09C1BECEF3CC2D7A9D6F87978;
+IL2CPP_EXTERN_C String_t* _stringLiteralFAA0677D8B244D4632C646F855DBDA897AF88533;
+IL2CPP_EXTERN_C String_t* _stringLiteralFF74C44E68D85E93EFEB3292C6B9D79D65F534AA;
+IL2CPP_EXTERN_C String_t* _stringLiteralFFBF9A0E9E577C4A844DDC87349090A6719B8993;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_HandleInitCompleteAction_mBE09ED97AE44C82A40909EBA2D606EBF70D37A8D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_OnAppStateChanged_m242FA0B108A1064237B69930C88ABBD296C024EF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CHandleInitCompleteActionU3Eb__18_0_m87108B18AC041FF834F897AD6014D53A316213DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3COpenAdInspectorU3Eb__35_0_m35C1A7E96481013C2DE59C1647A9295E4C21B635_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_0_mFD7C7609DB52B0A261DABC9552B8C225AF443E96_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_1_m86DC20017CCA1992E6AFB3E6D64A6690E109CB5F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_2_mD87CEC0B6C3807ACFC6D932B2A77B4B20FEB5BCB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_3_mB38644CD28D24029790537A06B13E7025D28630E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_4_m9A1EB034EBD783B4DF35FAAAA24F3E1E57E25C49_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_5_mD7425D15913B6CCE656B03F889896E95541B0052_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_6_mE0F2F1B64C35D9BC01E463CCB2FE95AD764C7E94_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_0_mD5EDA70A02C94B298E988A1D03B02ED290B5E6E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_1_m43A42B606B6A2769288AD73A3F004253F9E33DBB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_2_mC9916FA1BC91461CBB4812903AFD0649C55A8C1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_3_mDEC903BB831E9AF7B89270C8DF7F3FF51C35E7AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_4_mAFFE7AEBCFFCCA009AD4FE10F85A5C5AA57F0DF5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_5_mB43792A1FE9210361EB51764DA3B2BF7AEA7669F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_6_mB46BB9847D7DD8CF04A2557AE2181D90DE79ED16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_0_m47A1AEE1E9D5BD9DE290B1217BF37F6D83413666_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_1_mB4B198EA36EEA782C61BF69BA1075290A8F29610_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_2_m172F35A1C63BDE07D93D05283BA477E8BA6E3FB6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_3_m3A8932721629EF74B694DF5E7184305A1BB4F138_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_4_mF5E58C251E8C7425E86F40FD0E4CBFEDA01E72FC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_5_m091F0B9F113E95653CE8F46B0BE9EA881010D75A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_6_m6DDA9F018BB9EE9793CF8E920618B6A3ED0C57DB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_0_m752B24E8E322EF295791E072E094E128DF383689_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_1_m23010C3ADB6D0C2DB9F015E1C5D464CCE35D505E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_2_m617AF786FD6B6C297BD9F7C95596861B13AD4DA5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_3_m94C3D84E7BAB1F622DCE46FB7617F85C31C22640_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_4_m7EC8E611D1E7ED9A9B1F19F4ECB43B09E2B11E14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_5_m2423180A6A561A62E6A706C15C9587DEBD7B1550_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_6_mFE80159AE292EB32547C3231ECD1B0A987033BAD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestBannerAdU3Eb__20_0_m2E35E1A565D45CF08DFDEFAD6E58CE606891006C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestBannerAdU3Eb__20_1_m111A94B0743085EE42A88F6E5BDD3D4EE59D75FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestBannerAdU3Eb__20_2_mF3058EB75AE103DF237FE482F169C43E83767D7E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestBannerAdU3Eb__20_3_mEEED078E040B5A600222D109C364D0D1950CB0D5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestBannerAdU3Eb__20_4_m5D168730E54972F7098972459ADDBC166B90801B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestBannerAdU3Eb__20_5_mD8EAB1B37533439799BA1407530A30701F5ADA1D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CRequestBannerAdU3Eb__20_6_m17F9BB960CB016D242F24235BDC0E744B799F2C4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CShowRewardedAdU3Eb__26_0_m48DEC104B9170B585A3F97158DA93EE544BA0770_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleAdMobController_U3CShowRewardedInterstitialAdU3Eb__28_0_mDD80ACADCED77916AC581077CAFE44E7C382A996_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mC0094101367FA342F4A73D136FE5EA1F72D6352B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass31_0_U3COnAppStateChangedU3Eb__0_mA68132FF1450461C95FC412BBC63ECC08204BD1B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass37_0_U3CPrintStatusU3Eb__0_mDF47A48F389E405535CF55BC096A25B7B17D9CFE_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <Module>
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
+// GoogleMobileAds.Api.AdError
+struct AdError_tA3BF7518349885A73447524367693A096B3DD1AE  : public RuntimeObject
+{
+	// GoogleMobileAds.Common.IAdErrorClient GoogleMobileAds.Api.AdError::_client
+	RuntimeObject* ____client_0;
+};
+
+// GoogleMobileAds.Api.AdRequest
+struct AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D  : public RuntimeObject
+{
+	// System.Collections.Generic.HashSet`1<System.String> GoogleMobileAds.Api.AdRequest::Keywords
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___Keywords_2;
+	// System.Collections.Generic.Dictionary`2<System.String,System.String> GoogleMobileAds.Api.AdRequest::Extras
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___Extras_3;
+	// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras> GoogleMobileAds.Api.AdRequest::MediationExtras
+	List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___MediationExtras_4;
+};
+
+struct AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_StaticFields
+{
+	// System.String GoogleMobileAds.Api.AdRequest::<Version>k__BackingField
+	String_t* ___U3CVersionU3Ek__BackingField_0;
+};
+
+// GoogleMobileAds.Api.AdSize
+struct AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158  : public RuntimeObject
+{
+	// GoogleMobileAds.Api.AdSize/Type GoogleMobileAds.Api.AdSize::_type
+	int32_t ____type_0;
+	// GoogleMobileAds.Api.Orientation GoogleMobileAds.Api.AdSize::_orientation
+	int32_t ____orientation_1;
+	// System.Int32 GoogleMobileAds.Api.AdSize::_width
+	int32_t ____width_2;
+	// System.Int32 GoogleMobileAds.Api.AdSize::_height
+	int32_t ____height_3;
+};
+
+struct AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_StaticFields
+{
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::Banner
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___Banner_4;
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::MediumRectangle
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___MediumRectangle_5;
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::IABBanner
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___IABBanner_6;
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::Leaderboard
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___Leaderboard_7;
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::SmartBanner
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___SmartBanner_8;
+	// System.Int32 GoogleMobileAds.Api.AdSize::FullWidth
+	int32_t ___FullWidth_9;
+};
+
+// GoogleMobileAds.Api.AdValue
+struct AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD  : public RuntimeObject
+{
+	// GoogleMobileAds.Api.AdValue/PrecisionType GoogleMobileAds.Api.AdValue::<Precision>k__BackingField
+	int32_t ___U3CPrecisionU3Ek__BackingField_0;
+	// System.Int64 GoogleMobileAds.Api.AdValue::<Value>k__BackingField
+	int64_t ___U3CValueU3Ek__BackingField_1;
+	// System.String GoogleMobileAds.Api.AdValue::<CurrencyCode>k__BackingField
+	String_t* ___U3CCurrencyCodeU3Ek__BackingField_2;
+};
+
+// GoogleMobileAds.Api.AppOpenAd
+struct AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC  : public RuntimeObject
+{
+	// System.Action`1<GoogleMobileAds.Api.AdValue> GoogleMobileAds.Api.AppOpenAd::OnAdPaid
+	Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___OnAdPaid_0;
+	// System.Action GoogleMobileAds.Api.AppOpenAd::OnAdClicked
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdClicked_1;
+	// System.Action GoogleMobileAds.Api.AppOpenAd::OnAdImpressionRecorded
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdImpressionRecorded_2;
+	// System.Action GoogleMobileAds.Api.AppOpenAd::OnAdFullScreenContentOpened
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentOpened_3;
+	// System.Action GoogleMobileAds.Api.AppOpenAd::OnAdFullScreenContentClosed
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentClosed_4;
+	// System.Action`1<GoogleMobileAds.Api.AdError> GoogleMobileAds.Api.AppOpenAd::OnAdFullScreenContentFailed
+	Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* ___OnAdFullScreenContentFailed_5;
+	// GoogleMobileAds.Common.IAppOpenAdClient GoogleMobileAds.Api.AppOpenAd::_client
+	RuntimeObject* ____client_6;
+	// System.Boolean GoogleMobileAds.Api.AppOpenAd::_canShowAd
+	bool ____canShowAd_7;
+};
+struct Il2CppArrayBounds;
+
+// GoogleMobileAds.Api.BannerView
+struct BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB  : public RuntimeObject
+{
+	// System.Action GoogleMobileAds.Api.BannerView::OnBannerAdLoaded
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnBannerAdLoaded_0;
+	// System.Action`1<GoogleMobileAds.Api.LoadAdError> GoogleMobileAds.Api.BannerView::OnBannerAdLoadFailed
+	Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C* ___OnBannerAdLoadFailed_1;
+	// System.Action`1<GoogleMobileAds.Api.AdValue> GoogleMobileAds.Api.BannerView::OnAdPaid
+	Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___OnAdPaid_2;
+	// System.Action GoogleMobileAds.Api.BannerView::OnAdClicked
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdClicked_3;
+	// System.Action GoogleMobileAds.Api.BannerView::OnAdImpressionRecorded
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdImpressionRecorded_4;
+	// System.Action GoogleMobileAds.Api.BannerView::OnAdFullScreenContentOpened
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentOpened_5;
+	// System.Action GoogleMobileAds.Api.BannerView::OnAdFullScreenContentClosed
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentClosed_6;
+	// GoogleMobileAds.Common.IBannerClient GoogleMobileAds.Api.BannerView::_client
+	RuntimeObject* ____client_7;
+};
+
+// System.EventArgs
+struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377  : public RuntimeObject
+{
+};
+
+struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
+{
+	// System.EventArgs System.EventArgs::Empty
+	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
+};
+
+// GoogleMobileAds.Api.InitializationStatus
+struct InitializationStatus_t550D061D96119B8458B9FC389FBA74A1DBEB1DDD  : public RuntimeObject
+{
+	// GoogleMobileAds.Common.IInitializationStatusClient GoogleMobileAds.Api.InitializationStatus::client
+	RuntimeObject* ___client_0;
+};
+
+// GoogleMobileAds.Api.InterstitialAd
+struct InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC  : public RuntimeObject
+{
+	// System.Action`1<GoogleMobileAds.Api.AdValue> GoogleMobileAds.Api.InterstitialAd::OnAdPaid
+	Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___OnAdPaid_0;
+	// System.Action GoogleMobileAds.Api.InterstitialAd::OnAdClicked
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdClicked_1;
+	// System.Action GoogleMobileAds.Api.InterstitialAd::OnAdImpressionRecorded
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdImpressionRecorded_2;
+	// System.Action GoogleMobileAds.Api.InterstitialAd::OnAdFullScreenContentOpened
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentOpened_3;
+	// System.Action GoogleMobileAds.Api.InterstitialAd::OnAdFullScreenContentClosed
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentClosed_4;
+	// System.Action`1<GoogleMobileAds.Api.AdError> GoogleMobileAds.Api.InterstitialAd::OnAdFullScreenContentFailed
+	Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* ___OnAdFullScreenContentFailed_5;
+	// GoogleMobileAds.Common.IInterstitialClient GoogleMobileAds.Api.InterstitialAd::_client
+	RuntimeObject* ____client_6;
+	// System.Boolean GoogleMobileAds.Api.InterstitialAd::_canShowAd
+	bool ____canShowAd_7;
+};
+
+// GoogleMobileAds.Api.RewardedAd
+struct RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09  : public RuntimeObject
+{
+	// System.Action`1<GoogleMobileAds.Api.AdValue> GoogleMobileAds.Api.RewardedAd::OnAdPaid
+	Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___OnAdPaid_0;
+	// System.Action GoogleMobileAds.Api.RewardedAd::OnAdClicked
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdClicked_1;
+	// System.Action GoogleMobileAds.Api.RewardedAd::OnAdImpressionRecorded
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdImpressionRecorded_2;
+	// System.Action GoogleMobileAds.Api.RewardedAd::OnAdFullScreenContentOpened
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentOpened_3;
+	// System.Action GoogleMobileAds.Api.RewardedAd::OnAdFullScreenContentClosed
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentClosed_4;
+	// System.Action`1<GoogleMobileAds.Api.AdError> GoogleMobileAds.Api.RewardedAd::OnAdFullScreenContentFailed
+	Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* ___OnAdFullScreenContentFailed_5;
+	// GoogleMobileAds.Common.IRewardedAdClient GoogleMobileAds.Api.RewardedAd::_client
+	RuntimeObject* ____client_6;
+	// System.Boolean GoogleMobileAds.Api.RewardedAd::_canShowAd
+	bool ____canShowAd_7;
+	// System.Action`1<GoogleMobileAds.Api.Reward> GoogleMobileAds.Api.RewardedAd::_userRewardEarnedCallback
+	Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC* ____userRewardEarnedCallback_8;
+};
+
+// GoogleMobileAds.Api.RewardedInterstitialAd
+struct RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE  : public RuntimeObject
+{
+	// System.Action`1<GoogleMobileAds.Api.AdValue> GoogleMobileAds.Api.RewardedInterstitialAd::OnAdPaid
+	Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___OnAdPaid_0;
+	// System.Action GoogleMobileAds.Api.RewardedInterstitialAd::OnAdClicked
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdClicked_1;
+	// System.Action GoogleMobileAds.Api.RewardedInterstitialAd::OnAdImpressionRecorded
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdImpressionRecorded_2;
+	// System.Action GoogleMobileAds.Api.RewardedInterstitialAd::OnAdFullScreenContentOpened
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentOpened_3;
+	// System.Action GoogleMobileAds.Api.RewardedInterstitialAd::OnAdFullScreenContentClosed
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnAdFullScreenContentClosed_4;
+	// System.Action`1<GoogleMobileAds.Api.AdError> GoogleMobileAds.Api.RewardedInterstitialAd::OnAdFullScreenContentFailed
+	Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* ___OnAdFullScreenContentFailed_5;
+	// GoogleMobileAds.Common.IRewardedInterstitialAdClient GoogleMobileAds.Api.RewardedInterstitialAd::_client
+	RuntimeObject* ____client_6;
+	// System.Boolean GoogleMobileAds.Api.RewardedInterstitialAd::_canShowAd
+	bool ____canShowAd_7;
+	// System.Action`1<GoogleMobileAds.Api.Reward> GoogleMobileAds.Api.RewardedInterstitialAd::_userRewardEarnedCallback
+	Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC* ____userRewardEarnedCallback_8;
+};
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+	// System.Int32 System.String::_stringLength
+	int32_t ____stringLength_4;
+	// System.Char System.String::_firstChar
+	Il2CppChar ____firstChar_5;
+};
+
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// UnityEngine.Events.UnityEventBase
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	// UnityEngine.Events.InvokableCallList UnityEngine.Events.UnityEventBase::m_Calls
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls_0;
+	// UnityEngine.Events.PersistentCallGroup UnityEngine.Events.UnityEventBase::m_PersistentCalls
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls_1;
+	// System.Boolean UnityEngine.Events.UnityEventBase::m_CallsDirty
+	bool ___m_CallsDirty_2;
+};
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// GoogleMobileAds.Api.AdRequest/Builder
+struct Builder_t53925D96536F97B418172C0EF27AD9E6858FF348  : public RuntimeObject
+{
+	// System.Collections.Generic.HashSet`1<System.String> GoogleMobileAds.Api.AdRequest/Builder::<Keywords>k__BackingField
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___U3CKeywordsU3Ek__BackingField_0;
+	// System.Collections.Generic.Dictionary`2<System.String,System.String> GoogleMobileAds.Api.AdRequest/Builder::<Extras>k__BackingField
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___U3CExtrasU3Ek__BackingField_1;
+	// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras> GoogleMobileAds.Api.AdRequest/Builder::<MediationExtras>k__BackingField
+	List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___U3CMediationExtrasU3Ek__BackingField_2;
+};
+
+// GoogleAdMobController/<>c__DisplayClass31_0
+struct U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03  : public RuntimeObject
+{
+	// GoogleMobileAds.Common.AppState GoogleAdMobController/<>c__DisplayClass31_0::state
+	int32_t ___state_0;
+	// GoogleAdMobController GoogleAdMobController/<>c__DisplayClass31_0::<>4__this
+	GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* ___U3CU3E4__this_1;
+};
+
+// GoogleAdMobController/<>c__DisplayClass37_0
+struct U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D  : public RuntimeObject
+{
+	// System.String GoogleAdMobController/<>c__DisplayClass37_0::message
+	String_t* ___message_0;
+};
+
+// System.Nullable`1<System.Boolean>
+struct Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	bool ___value_1;
+};
+
+// System.Nullable`1<System.Int32Enum>
+struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	int32_t ___value_1;
+};
+
+// System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>
+struct Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	int32_t ___value_1;
+};
+
+// System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>
+struct Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	int32_t ___value_1;
+};
+
+// GoogleMobileAds.Api.AdInspectorError
+struct AdInspectorError_tD384323496C44553EA9EA953DBCFE6D24BC0534D  : public AdError_tA3BF7518349885A73447524367693A096B3DD1AE
+{
+};
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
+{
+	// System.UInt64 System.DateTime::_dateData
+	uint64_t ____dateData_46;
+};
+
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
+// System.Double
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	// System.Double System.Double::m_value
+	double ___m_value_0;
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+};
+
+// System.Int64
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	// System.Int64 System.Int64::m_value
+	int64_t ___m_value_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// GoogleMobileAds.Api.LoadAdError
+struct LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62  : public AdError_tA3BF7518349885A73447524367693A096B3DD1AE
+{
+	// GoogleMobileAds.Common.ILoadAdErrorClient GoogleMobileAds.Api.LoadAdError::_client
+	RuntimeObject* ____client_1;
+};
+
+// GoogleMobileAds.Api.Reward
+struct Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511  : public EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377
+{
+	// System.String GoogleMobileAds.Api.Reward::Type
+	String_t* ___Type_1;
+	// System.Double GoogleMobileAds.Api.Reward::Amount
+	double ___Amount_2;
+};
+
+// System.TimeSpan
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
+{
+	// System.Int64 System.TimeSpan::_ticks
+	int64_t ____ticks_22;
+};
+
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
+{
+	// System.TimeSpan System.TimeSpan::Zero
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
+	// System.TimeSpan System.TimeSpan::MaxValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
+	// System.TimeSpan System.TimeSpan::MinValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
+};
+
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	// System.Object[] UnityEngine.Events.UnityEvent::m_InvokeArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// System.Delegate
+struct Delegate_t  : public RuntimeObject
+{
+	// System.IntPtr System.Delegate::method_ptr
+	Il2CppMethodPointer ___method_ptr_0;
+	// System.IntPtr System.Delegate::invoke_impl
+	intptr_t ___invoke_impl_1;
+	// System.Object System.Delegate::m_target
+	RuntimeObject* ___m_target_2;
+	// System.IntPtr System.Delegate::method
+	intptr_t ___method_3;
+	// System.IntPtr System.Delegate::delegate_trampoline
+	intptr_t ___delegate_trampoline_4;
+	// System.IntPtr System.Delegate::extra_arg
+	intptr_t ___extra_arg_5;
+	// System.IntPtr System.Delegate::method_code
+	intptr_t ___method_code_6;
+	// System.IntPtr System.Delegate::interp_method
+	intptr_t ___interp_method_7;
+	// System.IntPtr System.Delegate::interp_invoke_impl
+	intptr_t ___interp_invoke_impl_8;
+	// System.Reflection.MethodInfo System.Delegate::method_info
+	MethodInfo_t* ___method_info_9;
+	// System.Reflection.MethodInfo System.Delegate::original_method_info
+	MethodInfo_t* ___original_method_info_10;
+	// System.DelegateData System.Delegate::data
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	// System.Boolean System.Delegate::method_is_virtual
+	bool ___method_is_virtual_12;
+};
+// Native definition for P/Invoke marshalling of System.Delegate
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+// Native definition for COM marshalling of System.Delegate
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Object::m_CachedPtr
+	intptr_t ___m_CachedPtr_0;
+};
+
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr_0;
+};
+
+// GoogleMobileAds.Api.RequestConfiguration
+struct RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB  : public RuntimeObject
+{
+	// GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.RequestConfiguration::MaxAdContentRating
+	MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___MaxAdContentRating_0;
+	// System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment> GoogleMobileAds.Api.RequestConfiguration::TagForChildDirectedTreatment
+	Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___TagForChildDirectedTreatment_1;
+	// System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent> GoogleMobileAds.Api.RequestConfiguration::TagForUnderAgeOfConsent
+	Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___TagForUnderAgeOfConsent_2;
+	// System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.RequestConfiguration::TestDeviceIds
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___TestDeviceIds_3;
+	// System.Nullable`1<System.Boolean> GoogleMobileAds.Api.RequestConfiguration::SameAppKeyEnabled
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___SameAppKeyEnabled_4;
+};
+
+// GoogleMobileAds.Api.RequestConfiguration/Builder
+struct Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45  : public RuntimeObject
+{
+	// GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.RequestConfiguration/Builder::<MaxAdContentRating>k__BackingField
+	MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___U3CMaxAdContentRatingU3Ek__BackingField_0;
+	// System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment> GoogleMobileAds.Api.RequestConfiguration/Builder::<TagForChildDirectedTreatment>k__BackingField
+	Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___U3CTagForChildDirectedTreatmentU3Ek__BackingField_1;
+	// System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent> GoogleMobileAds.Api.RequestConfiguration/Builder::<TagForUnderAgeOfConsent>k__BackingField
+	Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___U3CTagForUnderAgeOfConsentU3Ek__BackingField_2;
+	// System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.RequestConfiguration/Builder::<TestDeviceIds>k__BackingField
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___U3CTestDeviceIdsU3Ek__BackingField_3;
+	// System.Nullable`1<System.Boolean> GoogleMobileAds.Api.RequestConfiguration/Builder::<SameAppKeyEnabled>k__BackingField
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___U3CSameAppKeyEnabledU3Ek__BackingField_4;
+};
+
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// UnityEngine.GameObject
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// System.Action`1<GoogleMobileAds.Api.AdError>
+struct Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<GoogleMobileAds.Api.AdInspectorError>
+struct Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<GoogleMobileAds.Api.AdValue>
+struct Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<GoogleMobileAds.Common.AppState>
+struct Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<GoogleMobileAds.Api.InitializationStatus>
+struct Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<GoogleMobileAds.Api.LoadAdError>
+struct Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<GoogleMobileAds.Api.Reward>
+struct Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<GoogleMobileAds.Api.AppOpenAd,GoogleMobileAds.Api.LoadAdError>
+struct Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<GoogleMobileAds.Api.InterstitialAd,GoogleMobileAds.Api.LoadAdError>
+struct Action_2_t6D103D50D92EED8806671DABC525008F7D560A68  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<GoogleMobileAds.Api.RewardedAd,GoogleMobileAds.Api.LoadAdError>
+struct Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<GoogleMobileAds.Api.RewardedInterstitialAd,GoogleMobileAds.Api.LoadAdError>
+struct Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E  : public MulticastDelegate_t
+{
+};
+
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Behaviour
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+// GoogleAdMobController
+struct GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.TimeSpan GoogleAdMobController::APPOPEN_TIMEOUT
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___APPOPEN_TIMEOUT_5;
+	// System.DateTime GoogleAdMobController::appOpenExpireTime
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___appOpenExpireTime_6;
+	// GoogleMobileAds.Api.AppOpenAd GoogleAdMobController::appOpenAd
+	AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* ___appOpenAd_7;
+	// GoogleMobileAds.Api.BannerView GoogleAdMobController::bannerView
+	BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* ___bannerView_8;
+	// GoogleMobileAds.Api.InterstitialAd GoogleAdMobController::interstitialAd
+	InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* ___interstitialAd_9;
+	// GoogleMobileAds.Api.RewardedAd GoogleAdMobController::rewardedAd
+	RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* ___rewardedAd_10;
+	// GoogleMobileAds.Api.RewardedInterstitialAd GoogleAdMobController::rewardedInterstitialAd
+	RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* ___rewardedInterstitialAd_11;
+	// System.Single GoogleAdMobController::deltaTime
+	float ___deltaTime_12;
+	// UnityEngine.Events.UnityEvent GoogleAdMobController::OnAdLoadedEvent
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnAdLoadedEvent_13;
+	// UnityEngine.Events.UnityEvent GoogleAdMobController::OnAdFailedToLoadEvent
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnAdFailedToLoadEvent_14;
+	// UnityEngine.Events.UnityEvent GoogleAdMobController::OnAdOpeningEvent
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnAdOpeningEvent_15;
+	// UnityEngine.Events.UnityEvent GoogleAdMobController::OnAdFailedToShowEvent
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnAdFailedToShowEvent_16;
+	// UnityEngine.Events.UnityEvent GoogleAdMobController::OnUserEarnedRewardEvent
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnUserEarnedRewardEvent_17;
+	// UnityEngine.Events.UnityEvent GoogleAdMobController::OnAdClosedEvent
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnAdClosedEvent_18;
+	// GoogleMobileAds.Api.AdPosition GoogleAdMobController::AdPositionBanner
+	int32_t ___AdPositionBanner_19;
+};
+
+struct GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_StaticFields
+{
+	// GoogleAdMobController GoogleAdMobController::instance
+	GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* ___instance_4;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// System.Object[]
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+// System.Void System.Nullable`1<System.Int32Enum>::.ctor(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m5100B58428BDAD8C79F3D8576B0C2E1D4F3924EB_gshared (Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Int32Enum>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void System.Action`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+
+// System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___target0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.MobileAds::SetiOSAppPauseOnBackground(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAds_SetiOSAppPauseOnBackground_m961FDABCDC48D83C9ED92DBD08E7C3EA56928D73 (bool ___pause0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.String>::.ctor()
+inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.List`1<System.String>::Add(T)
+inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+}
+// System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder__ctor_m0C1631E6835CC874EFBD2DE2CEA91F7556BC385D (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, const RuntimeMethod* method) ;
+// System.Void System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>::.ctor(T)
+inline void Nullable_1__ctor_mC0094101367FA342F4A73D136FE5EA1F72D6352B (Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD*, int32_t, const RuntimeMethod*))Nullable_1__ctor_m5100B58428BDAD8C79F3D8576B0C2E1D4F3924EB_gshared)(__this, ___value0, method);
+}
+// GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetTagForChildDirectedTreatment(System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTagForChildDirectedTreatment_m276B46CB4D38C8036CDA4322A94D3F3248779258 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___tagForChildDirectedTreatment0, const RuntimeMethod* method) ;
+// GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetTestDeviceIds(System.Collections.Generic.List`1<System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTestDeviceIds_m23097E49B7356B95143DEC3A07F7A62825DAF4DA (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___testDeviceIds0, const RuntimeMethod* method) ;
+// GoogleMobileAds.Api.RequestConfiguration GoogleMobileAds.Api.RequestConfiguration/Builder::build()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* Builder_build_m3D063A3B45CE4C9BF32647A023681414A28C51B1 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.MobileAds::SetRequestConfiguration(GoogleMobileAds.Api.RequestConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAds_SetRequestConfiguration_mFE6B80F3B1F354D010E3BC35626F211477A89729 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* ___requestConfiguration0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<GoogleMobileAds.Api.InitializationStatus>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_mE9CC44390354758F587960FB48CF3560FCFAEAAC (Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.MobileAds::Initialize(System.Action`1<GoogleMobileAds.Api.InitializationStatus>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAds_Initialize_m0669FF1DDB182D0ACA91E08D6B0871A26867B1AA (Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE* ___initCompleteAction0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<GoogleMobileAds.Common.AppState>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_mD604D9AD049943624BC1CD0F21E63BCA019F4F59 (Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.AppStateEventNotifier::add_AppStateChanged(System.Action`1<GoogleMobileAds.Common.AppState>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppStateEventNotifier_add_AppStateChanged_mDD412F96CAD863F22482CEF3D43B8DF68555EFAB (Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79* ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void System.Action::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Common.MobileAdsEventExecutor::ExecuteInUpdate(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAdsEventExecutor_ExecuteInUpdate_mE5099EC8616103C5EC42AD9C6E681BD4DE1158BD (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
+// System.Void GoogleAdMobController::RequestAndLoadInterstitialAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_RequestAndLoadInterstitialAd_m6734DD077590A297481D069ED66F116576DC301D (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) ;
+// System.Void GoogleAdMobController::RequestAndLoadRewardedAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_RequestAndLoadRewardedAd_mB1775DF36D677412E6C882F45F0D8BDE245719CC (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.AdRequest/Builder::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder__ctor_m1D1863413DFAF3E7A309343EA0AFC767D1D0246F (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, const RuntimeMethod* method) ;
+// GoogleMobileAds.Api.AdRequest/Builder GoogleMobileAds.Api.AdRequest/Builder::AddKeyword(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* Builder_AddKeyword_mAED29632B1B8D21E57E665CB2A50E239ADA0FBCB (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, String_t* ___keyword0, const RuntimeMethod* method) ;
+// GoogleMobileAds.Api.AdRequest GoogleMobileAds.Api.AdRequest/Builder::Build()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* Builder_Build_m6E8AF1E48549640FCD4F3809AC1F538DC6B7CB85 (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, const RuntimeMethod* method) ;
+// System.Void GoogleAdMobController::PrintStatus(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.BannerView::Destroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_Destroy_mCD660269DF04D3EA92CC22EC1045B00C1E6CDC01 (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.BannerView::.ctor(System.String,GoogleMobileAds.Api.AdSize,GoogleMobileAds.Api.AdPosition)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView__ctor_m3C156986754CF612D73D61061B92BE3468FF6FDC (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, String_t* ___adUnitId0, AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___adSize1, int32_t ___position2, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.BannerView::add_OnBannerAdLoaded(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_add_OnBannerAdLoaded_mF3A6AA44B521D6AFF697B4FDF73C02139F1DEAE6 (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<GoogleMobileAds.Api.LoadAdError>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m794289405040AEF1424E63473399FB09A6A5B449 (Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.BannerView::add_OnBannerAdLoadFailed(System.Action`1<GoogleMobileAds.Api.LoadAdError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_add_OnBannerAdLoadFailed_m90B2772E9E91E19DA78644420A09DB4EC190597C (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.BannerView::add_OnAdImpressionRecorded(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_add_OnAdImpressionRecorded_m1568828D2FC1CBBBECB4700C5E37D0398B485AC9 (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.BannerView::add_OnAdClicked(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_add_OnAdClicked_m708C6DA7C5267620EC17923AE9859B8A158BA417 (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.BannerView::add_OnAdFullScreenContentOpened(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_add_OnAdFullScreenContentOpened_m3577911B72568C9830D7904636CF6748D532B883 (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.BannerView::add_OnAdFullScreenContentClosed(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_add_OnAdFullScreenContentClosed_m964338C81593C5D8D9A32E8A1AFC6103BCE99C33 (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<GoogleMobileAds.Api.AdValue>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m8FFEDDFFF020CA7E1BF034AD737AD1FBB0E447E9 (Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.BannerView::add_OnAdPaid(System.Action`1<GoogleMobileAds.Api.AdValue>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_add_OnAdPaid_m858CE3149B53B281681A4E9C7C930E46D06854BE (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___value0, const RuntimeMethod* method) ;
+// GoogleMobileAds.Api.AdRequest GoogleAdMobController::CreateAdRequest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* GoogleAdMobController_CreateAdRequest_mBDBFB4F600EF7A006B611C7F520BCBA8E02BF2FE (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.BannerView::LoadAd(GoogleMobileAds.Api.AdRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_LoadAd_m56BF83CC97DE20C40457B9452D0ABEFD97933FFF (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* __this, AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* ___request0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.InterstitialAd::Destroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_Destroy_m5C5C9367FF6A3500C3B61FD2BDBE5B6AF2FF0778 (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`2<GoogleMobileAds.Api.InterstitialAd,GoogleMobileAds.Api.LoadAdError>::.ctor(System.Object,System.IntPtr)
+inline void Action_2__ctor_mEBCBF2FC848DA79D39227A5344136BFA0FF2A65C (Action_2_t6D103D50D92EED8806671DABC525008F7D560A68* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_t6D103D50D92EED8806671DABC525008F7D560A68*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.InterstitialAd::Load(System.String,GoogleMobileAds.Api.AdRequest,System.Action`2<GoogleMobileAds.Api.InterstitialAd,GoogleMobileAds.Api.LoadAdError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_Load_m901B36E84EB0C5F8D7E6B686FEDCB49DC8E943F8 (String_t* ___adUnitId0, AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* ___request1, Action_2_t6D103D50D92EED8806671DABC525008F7D560A68* ___adLoadCallback2, const RuntimeMethod* method) ;
+// System.Boolean GoogleMobileAds.Api.InterstitialAd::CanShowAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InterstitialAd_CanShowAd_m76764B2A422FA2DE78D9E29DE630380BE6E65A0E (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* __this, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.InterstitialAd::Show()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_Show_m70188D3BE2543E7A0B58579A5991DA5A9E11CBAB (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`2<GoogleMobileAds.Api.RewardedAd,GoogleMobileAds.Api.LoadAdError>::.ctor(System.Object,System.IntPtr)
+inline void Action_2__ctor_mF2798EE70F4B32175E94176B602F4D7A2456BA02 (Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.RewardedAd::Load(System.String,GoogleMobileAds.Api.AdRequest,System.Action`2<GoogleMobileAds.Api.RewardedAd,GoogleMobileAds.Api.LoadAdError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_Load_m1079C83AD8F14FDF22839E3B86B2167B3EE6AF0A (String_t* ___adUnitId0, AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* ___request1, Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418* ___adLoadCallback2, const RuntimeMethod* method) ;
+// System.Void System.Action`1<GoogleMobileAds.Api.Reward>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m387D866A24FCC32F9B78AB9776B1C15352563CA7 (Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.RewardedAd::Show(System.Action`1<GoogleMobileAds.Api.Reward>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_Show_m63D6659798C98BD34A7F0A1479C0B35E8616A71F (RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* __this, Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC* ___userRewardEarnedCallback0, const RuntimeMethod* method) ;
+// System.Void System.Action`2<GoogleMobileAds.Api.RewardedInterstitialAd,GoogleMobileAds.Api.LoadAdError>::.ctor(System.Object,System.IntPtr)
+inline void Action_2__ctor_m4ECE211AAB8DF581506D2FB5467656D8A8192C88 (Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.RewardedInterstitialAd::Load(System.String,GoogleMobileAds.Api.AdRequest,System.Action`2<GoogleMobileAds.Api.RewardedInterstitialAd,GoogleMobileAds.Api.LoadAdError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedInterstitialAd_Load_mCC86FA134C260B6F055FB3EE1460FA71E2A1C18D (String_t* ___adUnitId0, AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* ___request1, Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E* ___adLoadCallback2, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedInterstitialAd::Show(System.Action`1<GoogleMobileAds.Api.Reward>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedInterstitialAd_Show_m94EC715CC0BB7273E1207CAD0B5D6D0E2248363E (RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* __this, Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC* ___userEarnedRewardCallback0, const RuntimeMethod* method) ;
+// System.Boolean GoogleMobileAds.Api.AppOpenAd::CanShowAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppOpenAd_CanShowAd_m822270A031DF79CB0ED3AD52240BC4100F0DFAB1 (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* __this, const RuntimeMethod* method) ;
+// System.DateTime System.DateTime::get_Now()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_get_Now_mC336498972C48439ADCD5C50D35FAE0F2A48B0F0 (const RuntimeMethod* method) ;
+// System.Boolean System.DateTime::op_LessThan(System.DateTime,System.DateTime)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DateTime_op_LessThan_mC39C4E1CDE23ED2ABA8D1DC9B4283B1BC1ACDB36 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___t10, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___t21, const RuntimeMethod* method) ;
+// System.Void GoogleAdMobController/<>c__DisplayClass31_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass31_0__ctor_mD530446B5A6DFBF40261018D4A30A1EFABDAAF60 (U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03* __this, const RuntimeMethod* method) ;
+// System.String System.Enum::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+// System.Void GoogleAdMobController::DestroyAppOpenAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_DestroyAppOpenAd_mB77EE93F40C43EDBD3746F276A15F8B00B796D79 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`2<GoogleMobileAds.Api.AppOpenAd,GoogleMobileAds.Api.LoadAdError>::.ctor(System.Object,System.IntPtr)
+inline void Action_2__ctor_m6B8C17853413136C6B43C8BEE2C39B36B0F3292D (Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.AppOpenAd::Load(System.String,UnityEngine.ScreenOrientation,GoogleMobileAds.Api.AdRequest,System.Action`2<GoogleMobileAds.Api.AppOpenAd,GoogleMobileAds.Api.LoadAdError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_Load_m42BACDA17E2C7A9C666AC27FBDF5819F5BB2B211 (String_t* ___adUnitId0, int32_t ___orientation1, AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* ___request2, Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580* ___adLoadCallback3, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.AppOpenAd::Destroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_Destroy_mD1F8CE10A274F9681F7D7FF7A591781F6A5E5351 (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* __this, const RuntimeMethod* method) ;
+// System.Boolean GoogleAdMobController::get_IsAppOpenAdAvailable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAdMobController_get_IsAppOpenAdAvailable_m053F3411DF57073F05D186B78EC26FA7A027E400 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.AppOpenAd::Show()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_Show_m2037E04CE3FAE7C677CEA702F39C20390CAB9024 (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<GoogleMobileAds.Api.AdInspectorError>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_mE08E4FD8241A7A7CEAA6987322D9BF039993EDD2 (Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.MobileAds::OpenAdInspector(System.Action`1<GoogleMobileAds.Api.AdInspectorError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileAds_OpenAdInspector_mEF370BF5C64B5B7E160D29BB9C38F55F067A420D (Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D* ___adInspectorClosedAction0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF (String_t* ___sceneName0, const RuntimeMethod* method) ;
+// System.Void GoogleAdMobController/<>c__DisplayClass37_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_m5ADC7F0DCA6B1F870E12A4C62E059DC11AD79C48 (U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D* __this, const RuntimeMethod* method) ;
+// System.TimeSpan System.TimeSpan::FromHours(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A TimeSpan_FromHours_mE752300A91D97AB8CCC53CB38547BBEFF601E2C6 (double ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+// System.Void GoogleAdMobController::RequestBannerAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_RequestBannerAd_m780F893846DE887F457C077458F0AE3019752DD8 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent::Invoke()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
+// System.String GoogleMobileAds.Api.AdError::GetMessage()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C (AdError_tA3BF7518349885A73447524367693A096B3DD1AE* __this, const RuntimeMethod* method) ;
+// System.String GoogleMobileAds.Api.AdValue::get_CurrencyCode()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AdValue_get_CurrencyCode_m2AF57ADB2877FB0408ED804180173807B1459E44_inline (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, const RuntimeMethod* method) ;
+// System.Int64 GoogleMobileAds.Api.AdValue::get_Value()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t AdValue_get_Value_mB60399D1CA779A1976CB1F7A905781E262964398_inline (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, RuntimeObject* ___arg23, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.InterstitialAd::add_OnAdFullScreenContentOpened(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_add_OnAdFullScreenContentOpened_mB5E6127049339D2D6BB4ACB8DBBE03A68C4A09AF (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.InterstitialAd::add_OnAdFullScreenContentClosed(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_add_OnAdFullScreenContentClosed_m752CF051CA5A0DA7F958D5C3A1813F30D09030E7 (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.InterstitialAd::add_OnAdImpressionRecorded(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_add_OnAdImpressionRecorded_mFB0CE6BF4F2BF99C63D231BBE9B4BF120B11679D (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.InterstitialAd::add_OnAdClicked(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_add_OnAdClicked_mF34B521ECA00D3A4F8E5D977E4BEC134FB95686B (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<GoogleMobileAds.Api.AdError>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m3910E81B85E42B809EF801EB5965F0C6CA5CE2A2 (Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GoogleMobileAds.Api.InterstitialAd::add_OnAdFullScreenContentFailed(System.Action`1<GoogleMobileAds.Api.AdError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_add_OnAdFullScreenContentFailed_m0A88B3B74B846FCA5CF7BB461E8ABF98FC269C85 (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* __this, Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.InterstitialAd::add_OnAdPaid(System.Action`1<GoogleMobileAds.Api.AdValue>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterstitialAd_add_OnAdPaid_m3B50D1F1600BDC3552B5A4908A49F5FEA7FFD1A3 (InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* __this, Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedAd::add_OnAdFullScreenContentOpened(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_add_OnAdFullScreenContentOpened_m90888ED613765C8605BB70CFE0B3C00A840666D6 (RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedAd::add_OnAdFullScreenContentClosed(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_add_OnAdFullScreenContentClosed_m1D80D5D072FDB7CFBB922CFED5992A1A28EB76F7 (RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedAd::add_OnAdImpressionRecorded(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_add_OnAdImpressionRecorded_mD7579F4E71DA0D356ACFBD6F332E3BE0398D581C (RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedAd::add_OnAdClicked(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_add_OnAdClicked_mC9CD352F1D2043D12EF3BF59F0FBC335F0A664AB (RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedAd::add_OnAdFullScreenContentFailed(System.Action`1<GoogleMobileAds.Api.AdError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_add_OnAdFullScreenContentFailed_mFC50DBBC23574A8C6CA195F91259C699559BC0D9 (RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* __this, Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedAd::add_OnAdPaid(System.Action`1<GoogleMobileAds.Api.AdValue>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedAd_add_OnAdPaid_m292BAC920593D4ABEBEBF931F10D642F37828048 (RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* __this, Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___value0, const RuntimeMethod* method) ;
+// System.String System.Double::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Double_ToString_m7499A5D792419537DCB9470A3675CEF5117DE339 (double* __this, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedInterstitialAd::add_OnAdFullScreenContentOpened(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedInterstitialAd_add_OnAdFullScreenContentOpened_m96432FC5B54D014F1238FAEE85F1B7F1CFFA6C33 (RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedInterstitialAd::add_OnAdFullScreenContentClosed(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedInterstitialAd_add_OnAdFullScreenContentClosed_m5D29C92E895DBCD5CED5F7CCB96DBFDCFF66D9AA (RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedInterstitialAd::add_OnAdImpressionRecorded(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedInterstitialAd_add_OnAdImpressionRecorded_m41AA95AB9C6C78C845A6BA1DAF707A752FB14DAB (RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedInterstitialAd::add_OnAdClicked(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedInterstitialAd_add_OnAdClicked_m4DDD4B733CA39E4016F665C33D65D3147A274C3F (RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedInterstitialAd::add_OnAdFullScreenContentFailed(System.Action`1<GoogleMobileAds.Api.AdError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedInterstitialAd_add_OnAdFullScreenContentFailed_m00FC7F022CB2D11C511B6FDC5DA7E59704721191 (RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* __this, Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.RewardedInterstitialAd::add_OnAdPaid(System.Action`1<GoogleMobileAds.Api.AdValue>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RewardedInterstitialAd_add_OnAdPaid_m61642D408C52ADA6C593D22FD4EE2DCC4126AB4A (RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* __this, Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___value0, const RuntimeMethod* method) ;
+// System.DateTime System.DateTime::op_Addition(System.DateTime,System.TimeSpan)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_op_Addition_m23FACB2D207CB24BE0E9C06AB4CF8CE0C4F0CAD8 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___d0, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___t1, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.AppOpenAd::add_OnAdFullScreenContentOpened(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_add_OnAdFullScreenContentOpened_m5BF498515C6EE855420C3C368C62385C2BF7F7BA (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.AppOpenAd::add_OnAdFullScreenContentClosed(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_add_OnAdFullScreenContentClosed_m9AFCAA1DF7CF8CCD46B3E62169ADA2B02D49C2CD (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.AppOpenAd::add_OnAdImpressionRecorded(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_add_OnAdImpressionRecorded_m55A3EAAD5487C15D84F17B6BA8C74C1FDF35F971 (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.AppOpenAd::add_OnAdClicked(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_add_OnAdClicked_m5AC8D58C568C6B5AAAF8916DBABFF805B62904BA (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.AppOpenAd::add_OnAdFullScreenContentFailed(System.Action`1<GoogleMobileAds.Api.AdError>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_add_OnAdFullScreenContentFailed_m4D52DC4F7D85A0DA305BAAAD27031C528006CE44 (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* __this, Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* ___value0, const RuntimeMethod* method) ;
+// System.Void GoogleMobileAds.Api.AppOpenAd::add_OnAdPaid(System.Action`1<GoogleMobileAds.Api.AdValue>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_add_OnAdPaid_mC6A173F1C25378D51E0CA1EE26AC1D175E50918D (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* __this, Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* ___value0, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Void GoogleAdMobController::ShowAppOpenAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_ShowAppOpenAd_m9BFDDC4C3747994C0A9AA3A3A351A05FB737CF97 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::print(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_print_mED815C779E369787B3E9646A6DE96FBC2944BF0B (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GoogleAdMobController::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_Awake_m1368A639B975D31EEB6BF2BB5F9B2765398B7E93 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (instance == null)
+		GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* L_0 = ((GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_StaticFields*)il2cpp_codegen_static_fields_for(GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_il2cpp_TypeInfo_var))->___instance_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		// instance = this;
+		((GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_StaticFields*)il2cpp_codegen_static_fields_for(GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_il2cpp_TypeInfo_var))->___instance_4 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_StaticFields*)il2cpp_codegen_static_fields_for(GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704_il2cpp_TypeInfo_var))->___instance_4), (void*)__this);
+		// DontDestroyOnLoad(this.gameObject);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9(L_2, NULL);
+	}
+
+IL_001e:
+	{
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_Start_m7DB655DFB3F7DA9904DD690160088C8B73D811EC (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppStateEventNotifier_t0A047576C80CBFF891C1E1A0106BA70A5E302FAE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_HandleInitCompleteAction_mBE09ED97AE44C82A40909EBA2D606EBF70D37A8D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_OnAppStateChanged_m242FA0B108A1064237B69930C88ABBD296C024EF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mC0094101367FA342F4A73D136FE5EA1F72D6352B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3DB2F4ED354BE1A1B4B0FBF68B7A56D5A64CBD32);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral851436032891ADEBB305D03B4EA08D1DFE74F69E);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* V_0 = NULL;
+	{
+		// MobileAds.SetiOSAppPauseOnBackground(true);
+		MobileAds_SetiOSAppPauseOnBackground_m961FDABCDC48D83C9ED92DBD08E7C3EA56928D73((bool)1, NULL);
+		// List<String> deviceIds = new List<String>() { AdRequest.TestDeviceSimulator };
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = L_0;
+		NullCheck(L_1);
+		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_1, _stringLiteral3DB2F4ED354BE1A1B4B0FBF68B7A56D5A64CBD32, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		V_0 = L_1;
+		// deviceIds.Add("75EF8D155528C04DACBBA6F36F433035");
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = V_0;
+		NullCheck(L_2);
+		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_2, _stringLiteral851436032891ADEBB305D03B4EA08D1DFE74F69E, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		// RequestConfiguration requestConfiguration =
+		//     new RequestConfiguration.Builder()
+		//     .SetTagForChildDirectedTreatment(TagForChildDirectedTreatment.Unspecified)
+		//     .SetTestDeviceIds(deviceIds).build();
+		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_3 = (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45*)il2cpp_codegen_object_new(Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		Builder__ctor_m0C1631E6835CC874EFBD2DE2CEA91F7556BC385D(L_3, NULL);
+		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Nullable_1__ctor_mC0094101367FA342F4A73D136FE5EA1F72D6352B((&L_4), (-1), /*hidden argument*/Nullable_1__ctor_mC0094101367FA342F4A73D136FE5EA1F72D6352B_RuntimeMethod_var);
+		NullCheck(L_3);
+		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_5;
+		L_5 = Builder_SetTagForChildDirectedTreatment_m276B46CB4D38C8036CDA4322A94D3F3248779258(L_3, L_4, NULL);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_6 = V_0;
+		NullCheck(L_5);
+		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_7;
+		L_7 = Builder_SetTestDeviceIds_m23097E49B7356B95143DEC3A07F7A62825DAF4DA(L_5, L_6, NULL);
+		NullCheck(L_7);
+		RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* L_8;
+		L_8 = Builder_build_m3D063A3B45CE4C9BF32647A023681414A28C51B1(L_7, NULL);
+		// MobileAds.SetRequestConfiguration(requestConfiguration);
+		MobileAds_SetRequestConfiguration_mFE6B80F3B1F354D010E3BC35626F211477A89729(L_8, NULL);
+		// MobileAds.Initialize(HandleInitCompleteAction);
+		Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE* L_9 = (Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE*)il2cpp_codegen_object_new(Action_1_t61953204BFE962922BA541482E3ECC9BB03FC8EE_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Action_1__ctor_mE9CC44390354758F587960FB48CF3560FCFAEAAC(L_9, __this, (intptr_t)((void*)GoogleAdMobController_HandleInitCompleteAction_mBE09ED97AE44C82A40909EBA2D606EBF70D37A8D_RuntimeMethod_var), NULL);
+		MobileAds_Initialize_m0669FF1DDB182D0ACA91E08D6B0871A26867B1AA(L_9, NULL);
+		// AppStateEventNotifier.AppStateChanged += OnAppStateChanged;
+		Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79* L_10 = (Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79*)il2cpp_codegen_object_new(Action_1_tFF28F60745C112FCD21E71B64003D8D58F407B79_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		Action_1__ctor_mD604D9AD049943624BC1CD0F21E63BCA019F4F59(L_10, __this, (intptr_t)((void*)GoogleAdMobController_OnAppStateChanged_m242FA0B108A1064237B69930C88ABBD296C024EF_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(AppStateEventNotifier_t0A047576C80CBFF891C1E1A0106BA70A5E302FAE_il2cpp_TypeInfo_var);
+		AppStateEventNotifier_add_AppStateChanged_mDD412F96CAD863F22482CEF3D43B8DF68555EFAB(L_10, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::HandleInitCompleteAction(GoogleMobileAds.Api.InitializationStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_HandleInitCompleteAction_mBE09ED97AE44C82A40909EBA2D606EBF70D37A8D (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, InitializationStatus_t550D061D96119B8458B9FC389FBA74A1DBEB1DDD* ___initstatus0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CHandleInitCompleteActionU3Eb__18_0_m87108B18AC041FF834F897AD6014D53A316213DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MobileAdsEventExecutor_t1185FA76E60746A4BF6150BBFC4BD17B123F380A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBBC973E8B542FC1CD84E1DA7DFAD82E062E662A6);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("Initialization complete.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralBBC973E8B542FC1CD84E1DA7DFAD82E062E662A6, NULL);
+		// MobileAdsEventExecutor.ExecuteInUpdate(() =>
+		// {
+		//     RequestBannerAd(); //RAR
+		// });
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, __this, (intptr_t)((void*)GoogleAdMobController_U3CHandleInitCompleteActionU3Eb__18_0_m87108B18AC041FF834F897AD6014D53A316213DD_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(MobileAdsEventExecutor_t1185FA76E60746A4BF6150BBFC4BD17B123F380A_il2cpp_TypeInfo_var);
+		MobileAdsEventExecutor_ExecuteInUpdate_mE5099EC8616103C5EC42AD9C6E681BD4DE1158BD(L_0, NULL);
+		// RequestAndLoadInterstitialAd(); //RAR
+		GoogleAdMobController_RequestAndLoadInterstitialAd_m6734DD077590A297481D069ED66F116576DC301D(__this, NULL);
+		// RequestAndLoadRewardedAd(); //RAR
+		GoogleAdMobController_RequestAndLoadRewardedAd_mB1775DF36D677412E6C882F45F0D8BDE245719CC(__this, NULL);
+		// }
+		return;
+	}
+}
+// GoogleMobileAds.Api.AdRequest GoogleAdMobController::CreateAdRequest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* GoogleAdMobController_CreateAdRequest_mBDBFB4F600EF7A006B611C7F520BCBA8E02BF2FE (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Builder_t53925D96536F97B418172C0EF27AD9E6858FF348_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4CE930388BF0D0721CC71424D0AF03B46FB38DFE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return new AdRequest.Builder()
+		//     .AddKeyword("unity-admob-sample")
+		//     .Build();
+		Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* L_0 = (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348*)il2cpp_codegen_object_new(Builder_t53925D96536F97B418172C0EF27AD9E6858FF348_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Builder__ctor_m1D1863413DFAF3E7A309343EA0AFC767D1D0246F(L_0, NULL);
+		NullCheck(L_0);
+		Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* L_1;
+		L_1 = Builder_AddKeyword_mAED29632B1B8D21E57E665CB2A50E239ADA0FBCB(L_0, _stringLiteral4CE930388BF0D0721CC71424D0AF03B46FB38DFE, NULL);
+		NullCheck(L_1);
+		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_2;
+		L_2 = Builder_Build_m6E8AF1E48549640FCD4F3809AC1F538DC6B7CB85(L_1, NULL);
+		return L_2;
+	}
+}
+// System.Void GoogleAdMobController::RequestBannerAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_RequestBannerAd_m780F893846DE887F457C077458F0AE3019752DD8 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestBannerAdU3Eb__20_0_m2E35E1A565D45CF08DFDEFAD6E58CE606891006C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestBannerAdU3Eb__20_1_m111A94B0743085EE42A88F6E5BDD3D4EE59D75FD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestBannerAdU3Eb__20_2_mF3058EB75AE103DF237FE482F169C43E83767D7E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestBannerAdU3Eb__20_3_mEEED078E040B5A600222D109C364D0D1950CB0D5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestBannerAdU3Eb__20_4_m5D168730E54972F7098972459ADDBC166B90801B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestBannerAdU3Eb__20_5_mD8EAB1B37533439799BA1407530A30701F5ADA1D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestBannerAdU3Eb__20_6_m17F9BB960CB016D242F24235BDC0E744B799F2C4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral07671669D0BF408F99D78A7CCEB160AEB348591A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE1B77BC58FA1C48C0D7C320A13D9EED379EF317F);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// PrintStatus("Requesting Banner ad.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral07671669D0BF408F99D78A7CCEB160AEB348591A, NULL);
+		// string adUnitId = "ca-app-pub-3940256099942544/6300978111";   // RAR ids update here
+		V_0 = _stringLiteralE1B77BC58FA1C48C0D7C320A13D9EED379EF317F;
+		// if (bannerView != null)
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_0 = __this->___bannerView_8;
+		if (!L_0)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		// bannerView.Destroy();
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_1 = __this->___bannerView_8;
+		NullCheck(L_1);
+		BannerView_Destroy_mCD660269DF04D3EA92CC22EC1045B00C1E6CDC01(L_1, NULL);
+	}
+
+IL_0024:
+	{
+		// bannerView = new BannerView(adUnitId, AdSize.Banner, AdPositionBanner); // RAR here is position bannaer update
+		String_t* L_2 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var);
+		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_3 = ((AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_StaticFields*)il2cpp_codegen_static_fields_for(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var))->___Banner_4;
+		int32_t L_4 = __this->___AdPositionBanner_19;
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_5 = (BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB*)il2cpp_codegen_object_new(BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		BannerView__ctor_m3C156986754CF612D73D61061B92BE3468FF6FDC(L_5, L_2, L_3, L_4, NULL);
+		__this->___bannerView_8 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___bannerView_8), (void*)L_5);
+		// bannerView.OnBannerAdLoaded += () =>
+		// {
+		//     PrintStatus("Banner ad loaded.");
+		//     OnAdLoadedEvent.Invoke();
+		// };
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_6 = __this->___bannerView_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_7, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestBannerAdU3Eb__20_0_m2E35E1A565D45CF08DFDEFAD6E58CE606891006C_RuntimeMethod_var), NULL);
+		NullCheck(L_6);
+		BannerView_add_OnBannerAdLoaded_mF3A6AA44B521D6AFF697B4FDF73C02139F1DEAE6(L_6, L_7, NULL);
+		// bannerView.OnBannerAdLoadFailed += (LoadAdError error) =>
+		// {
+		//     PrintStatus("Banner ad failed to load with error: " + error.GetMessage());
+		//     OnAdFailedToLoadEvent.Invoke();
+		// };
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_8 = __this->___bannerView_8;
+		Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C* L_9 = (Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C*)il2cpp_codegen_object_new(Action_1_t841B459F75B339DA7C5B42D7EA2E177BAE679C4C_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Action_1__ctor_m794289405040AEF1424E63473399FB09A6A5B449(L_9, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestBannerAdU3Eb__20_1_m111A94B0743085EE42A88F6E5BDD3D4EE59D75FD_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		BannerView_add_OnBannerAdLoadFailed_m90B2772E9E91E19DA78644420A09DB4EC190597C(L_8, L_9, NULL);
+		// bannerView.OnAdImpressionRecorded += () =>
+		// {
+		//     PrintStatus("Banner ad recorded an impression.");
+		// };
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_10 = __this->___bannerView_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_11, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestBannerAdU3Eb__20_2_mF3058EB75AE103DF237FE482F169C43E83767D7E_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		BannerView_add_OnAdImpressionRecorded_m1568828D2FC1CBBBECB4700C5E37D0398B485AC9(L_10, L_11, NULL);
+		// bannerView.OnAdClicked += () =>
+		// {
+		//     PrintStatus("Banner ad recorded a click.");
+		// };
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_12 = __this->___bannerView_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_13 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_13, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestBannerAdU3Eb__20_3_mEEED078E040B5A600222D109C364D0D1950CB0D5_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		BannerView_add_OnAdClicked_m708C6DA7C5267620EC17923AE9859B8A158BA417(L_12, L_13, NULL);
+		// bannerView.OnAdFullScreenContentOpened += () =>
+		// {
+		//     PrintStatus("Banner ad opening.");
+		//     OnAdOpeningEvent.Invoke();
+		// };
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_14 = __this->___bannerView_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_15 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_15, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestBannerAdU3Eb__20_4_m5D168730E54972F7098972459ADDBC166B90801B_RuntimeMethod_var), NULL);
+		NullCheck(L_14);
+		BannerView_add_OnAdFullScreenContentOpened_m3577911B72568C9830D7904636CF6748D532B883(L_14, L_15, NULL);
+		// bannerView.OnAdFullScreenContentClosed += () =>
+		// {
+		//     PrintStatus("Banner ad closed.");
+		//     OnAdClosedEvent.Invoke();
+		// };
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_16 = __this->___bannerView_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_17 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_17);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_17, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestBannerAdU3Eb__20_5_mD8EAB1B37533439799BA1407530A30701F5ADA1D_RuntimeMethod_var), NULL);
+		NullCheck(L_16);
+		BannerView_add_OnAdFullScreenContentClosed_m964338C81593C5D8D9A32E8A1AFC6103BCE99C33(L_16, L_17, NULL);
+		// bannerView.OnAdPaid += (AdValue adValue) =>
+		// {
+		//     string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                                 "Banner ad received a paid event.",
+		//                                 adValue.CurrencyCode,
+		//                                 adValue.Value);
+		//     PrintStatus(msg);
+		// };
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_18 = __this->___bannerView_8;
+		Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* L_19 = (Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF*)il2cpp_codegen_object_new(Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		NullCheck(L_19);
+		Action_1__ctor_m8FFEDDFFF020CA7E1BF034AD737AD1FBB0E447E9(L_19, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestBannerAdU3Eb__20_6_m17F9BB960CB016D242F24235BDC0E744B799F2C4_RuntimeMethod_var), NULL);
+		NullCheck(L_18);
+		BannerView_add_OnAdPaid_m858CE3149B53B281681A4E9C7C930E46D06854BE(L_18, L_19, NULL);
+		// bannerView.LoadAd(CreateAdRequest());
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_20 = __this->___bannerView_8;
+		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_21;
+		L_21 = GoogleAdMobController_CreateAdRequest_mBDBFB4F600EF7A006B611C7F520BCBA8E02BF2FE(__this, NULL);
+		NullCheck(L_20);
+		BannerView_LoadAd_m56BF83CC97DE20C40457B9452D0ABEFD97933FFF(L_20, L_21, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::DestroyBannerAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_DestroyBannerAd_mC7C3C8CA0F1747ABDC067FD48A824A921690DE12 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (bannerView != null)
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_0 = __this->___bannerView_8;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// bannerView.Destroy();
+		BannerView_t203A90A6D41B56EC7208F121D6EE7E7283A590BB* L_1 = __this->___bannerView_8;
+		NullCheck(L_1);
+		BannerView_Destroy_mCD660269DF04D3EA92CC22EC1045B00C1E6CDC01(L_1, NULL);
+	}
+
+IL_0013:
+	{
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::RequestAndLoadInterstitialAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_RequestAndLoadInterstitialAd_m6734DD077590A297481D069ED66F116576DC301D (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t6D103D50D92EED8806671DABC525008F7D560A68_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_0_mD5EDA70A02C94B298E988A1D03B02ED290B5E6E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6A3E4380805D0C9D22128FC46083859720702DE6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC6264F3E99DD53581133B065E278BB5734C025F8);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B2_0 = NULL;
+	String_t* G_B1_0 = NULL;
+	{
+		// PrintStatus("Requesting Interstitial ad.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral6A3E4380805D0C9D22128FC46083859720702DE6, NULL);
+		// string adUnitId = "ca-app-pub-3940256099942544/1033173712";
+		// if (interstitialAd != null)
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_0 = __this->___interstitialAd_9;
+		G_B1_0 = _stringLiteralC6264F3E99DD53581133B065E278BB5734C025F8;
+		if (!L_0)
+		{
+			G_B2_0 = _stringLiteralC6264F3E99DD53581133B065E278BB5734C025F8;
+			goto IL_0023;
+		}
+	}
+	{
+		// interstitialAd.Destroy();
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_1 = __this->___interstitialAd_9;
+		NullCheck(L_1);
+		InterstitialAd_Destroy_m5C5C9367FF6A3500C3B61FD2BDBE5B6AF2FF0778(L_1, NULL);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0023:
+	{
+		// InterstitialAd.Load(adUnitId, CreateAdRequest(),
+		//     (InterstitialAd ad, LoadAdError loadError) =>
+		//     {
+		//         if (loadError != null)
+		//         {
+		//             PrintStatus("Interstitial ad failed to load with error: " +
+		//                 loadError.GetMessage());
+		//             return;
+		//         }
+		//         else if (ad == null)
+		//         {
+		//             PrintStatus("Interstitial ad failed to load.");
+		//             return;
+		//         }
+		// 
+		//         PrintStatus("Interstitial ad loaded.");
+		//         interstitialAd = ad;
+		// 
+		//         ad.OnAdFullScreenContentOpened += () =>
+		//         {
+		//             PrintStatus("Interstitial ad opening.");
+		//             OnAdOpeningEvent.Invoke();
+		//         };
+		//         ad.OnAdFullScreenContentClosed += () =>
+		//         {
+		//             PrintStatus("Interstitial ad closed.");
+		//             OnAdClosedEvent.Invoke();
+		// 
+		//             RequestAndLoadInterstitialAd(); //RAR
+		// 
+		//         };
+		//         ad.OnAdImpressionRecorded += () =>
+		//         {
+		//             PrintStatus("Interstitial ad recorded an impression.");
+		//         };
+		//         ad.OnAdClicked += () =>
+		//         {
+		//             PrintStatus("Interstitial ad recorded a click.");
+		//         };
+		//         ad.OnAdFullScreenContentFailed += (AdError error) =>
+		//         {
+		//             PrintStatus("Interstitial ad failed to show with error: " +
+		//                         error.GetMessage());
+		//         };
+		//         ad.OnAdPaid += (AdValue adValue) =>
+		//         {
+		//             string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                                        "Interstitial ad received a paid event.",
+		//                                        adValue.CurrencyCode,
+		//                                        adValue.Value);
+		//             PrintStatus(msg);
+		//         };
+		//     });
+		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_2;
+		L_2 = GoogleAdMobController_CreateAdRequest_mBDBFB4F600EF7A006B611C7F520BCBA8E02BF2FE(__this, NULL);
+		Action_2_t6D103D50D92EED8806671DABC525008F7D560A68* L_3 = (Action_2_t6D103D50D92EED8806671DABC525008F7D560A68*)il2cpp_codegen_object_new(Action_2_t6D103D50D92EED8806671DABC525008F7D560A68_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		Action_2__ctor_mEBCBF2FC848DA79D39227A5344136BFA0FF2A65C(L_3, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_0_mD5EDA70A02C94B298E988A1D03B02ED290B5E6E3_RuntimeMethod_var), NULL);
+		InterstitialAd_Load_m901B36E84EB0C5F8D7E6B686FEDCB49DC8E943F8(G_B2_0, L_2, L_3, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::ShowInterstitialAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_ShowInterstitialAd_m5848A2DED111A1B9F71B3ECAABB759E5C90678E1 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA839AA9B952F20BBBB5E83609055E3B6BB000F8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (interstitialAd != null && interstitialAd.CanShowAd())
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_0 = __this->___interstitialAd_9;
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_1 = __this->___interstitialAd_9;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = InterstitialAd_CanShowAd_m76764B2A422FA2DE78D9E29DE630380BE6E65A0E(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		// interstitialAd.Show();
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_3 = __this->___interstitialAd_9;
+		NullCheck(L_3);
+		InterstitialAd_Show_m70188D3BE2543E7A0B58579A5991DA5A9E11CBAB(L_3, NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		// PrintStatus("Interstitial ad is not ready yet.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralBA839AA9B952F20BBBB5E83609055E3B6BB000F8, NULL);
+		// RequestAndLoadInterstitialAd(); // RAR
+		GoogleAdMobController_RequestAndLoadInterstitialAd_m6734DD077590A297481D069ED66F116576DC301D(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::DestroyInterstitialAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_DestroyInterstitialAd_mA18EEB66AA9570D981EC319B965F5BCEECB165E2 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (interstitialAd != null)
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_0 = __this->___interstitialAd_9;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// interstitialAd.Destroy();
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_1 = __this->___interstitialAd_9;
+		NullCheck(L_1);
+		InterstitialAd_Destroy_m5C5C9367FF6A3500C3B61FD2BDBE5B6AF2FF0778(L_1, NULL);
+	}
+
+IL_0013:
+	{
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::RequestAndLoadRewardedAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_RequestAndLoadRewardedAd_mB1775DF36D677412E6C882F45F0D8BDE245719CC (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_0_m47A1AEE1E9D5BD9DE290B1217BF37F6D83413666_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral64B56570F4FE3FE45A614B62D66279D934F4AAC1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B38965CE720A13FF60E3BC230C25CEEEE60298B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Requesting Rewarded ad.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral9B38965CE720A13FF60E3BC230C25CEEEE60298B, NULL);
+		// string adUnitId = "ca-app-pub-3940256099942544/5224354917";
+		// RewardedAd.Load(adUnitId, CreateAdRequest(),
+		//     (RewardedAd ad, LoadAdError loadError) =>
+		//     {
+		//         if (loadError != null)
+		//         {
+		//             PrintStatus("Rewarded ad failed to load with error: " +
+		//                         loadError.GetMessage());
+		//             return;
+		//         }
+		//         else if (ad == null)
+		//         {
+		//             PrintStatus("Rewarded ad failed to load.");
+		//             return;
+		//         }
+		// 
+		//         PrintStatus("Rewarded ad loaded.");
+		//         rewardedAd = ad;
+		// 
+		//         ad.OnAdFullScreenContentOpened += () =>
+		//         {
+		//             PrintStatus("Rewarded ad opening.");
+		//             OnAdOpeningEvent.Invoke();
+		//         };
+		//         ad.OnAdFullScreenContentClosed += () =>
+		//         {
+		//             PrintStatus("Rewarded ad closed.");
+		// 
+		//             RequestAndLoadRewardedAd(); //RAR
+		// 
+		//             OnAdClosedEvent.Invoke();
+		//         };
+		//         ad.OnAdImpressionRecorded += () =>
+		//         {
+		//             PrintStatus("Rewarded ad recorded an impression.");
+		//         };
+		//         ad.OnAdClicked += () =>
+		//         {
+		//             PrintStatus("Rewarded ad recorded a click.");
+		//         };
+		//         ad.OnAdFullScreenContentFailed += (AdError error) =>
+		//         {
+		//             PrintStatus("Rewarded ad failed to show with error: " +
+		//                        error.GetMessage());
+		//         };
+		//         ad.OnAdPaid += (AdValue adValue) =>
+		//         {
+		//             string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                                        "Rewarded ad received a paid event.",
+		//                                        adValue.CurrencyCode,
+		//                                        adValue.Value);
+		//             PrintStatus(msg);
+		//         };
+		//     });
+		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_0;
+		L_0 = GoogleAdMobController_CreateAdRequest_mBDBFB4F600EF7A006B611C7F520BCBA8E02BF2FE(__this, NULL);
+		Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418* L_1 = (Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418*)il2cpp_codegen_object_new(Action_2_tC9845396FA1C64BD50F4252BD4DCF45834121418_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Action_2__ctor_mF2798EE70F4B32175E94176B602F4D7A2456BA02(L_1, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_0_m47A1AEE1E9D5BD9DE290B1217BF37F6D83413666_RuntimeMethod_var), NULL);
+		RewardedAd_Load_m1079C83AD8F14FDF22839E3B86B2167B3EE6AF0A(_stringLiteral64B56570F4FE3FE45A614B62D66279D934F4AAC1, L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::ShowRewardedAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_ShowRewardedAd_m1B6DB8ABC515E91CA08F3DF978E2FADD5B2AA2DB (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CShowRewardedAdU3Eb__26_0_m48DEC104B9170B585A3F97158DA93EE544BA0770_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD6EA6C2C73D5196FD60E3F481D5F4B190485AE35);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (rewardedAd != null)
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_0 = __this->___rewardedAd_10;
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// rewardedAd.Show((Reward reward) =>
+		// {
+		//     PrintStatus("Rewarded ad granted a reward: " + reward.Amount);
+		// });
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_1 = __this->___rewardedAd_10;
+		Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC* L_2 = (Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC*)il2cpp_codegen_object_new(Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		Action_1__ctor_m387D866A24FCC32F9B78AB9776B1C15352563CA7(L_2, __this, (intptr_t)((void*)GoogleAdMobController_U3CShowRewardedAdU3Eb__26_0_m48DEC104B9170B585A3F97158DA93EE544BA0770_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		RewardedAd_Show_m63D6659798C98BD34A7F0A1479C0B35E8616A71F(L_1, L_2, NULL);
+		return;
+	}
+
+IL_0020:
+	{
+		// PrintStatus("Rewarded ad is not ready yet.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralD6EA6C2C73D5196FD60E3F481D5F4B190485AE35, NULL);
+		// RequestAndLoadRewardedAd(); //RAR
+		GoogleAdMobController_RequestAndLoadRewardedAd_mB1775DF36D677412E6C882F45F0D8BDE245719CC(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::RequestAndLoadRewardedInterstitialAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_RequestAndLoadRewardedInterstitialAd_mC7678885C0C91E192E542695B3F8DD0B6D4D432D (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_0_m752B24E8E322EF295791E072E094E128DF383689_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4ED32CB0AD5F9472E42BF86AD84273A836E3F549);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5C88BC08E626365BC4DB139524274BF7D909DBC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Requesting Rewarded Interstitial ad.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral4ED32CB0AD5F9472E42BF86AD84273A836E3F549, NULL);
+		// string adUnitId = "ca-app-pub-3940256099942544/5354046379";
+		// RewardedInterstitialAd.Load(adUnitId, CreateAdRequest(),
+		//     (RewardedInterstitialAd ad, LoadAdError loadError) =>
+		//     {
+		//         if (loadError != null)
+		//         {
+		//             PrintStatus("Rewarded interstitial ad failed to load with error: " +
+		//                         loadError.GetMessage());
+		//             return;
+		//         }
+		//         else if (ad == null)
+		//         {
+		//             PrintStatus("Rewarded interstitial ad failed to load.");
+		//             return;
+		//         }
+		// 
+		//         PrintStatus("Rewarded interstitial ad loaded.");
+		//         rewardedInterstitialAd = ad;
+		// 
+		//         ad.OnAdFullScreenContentOpened += () =>
+		//         {
+		//             PrintStatus("Rewarded interstitial ad opening.");
+		//             OnAdOpeningEvent.Invoke();
+		//         };
+		//         ad.OnAdFullScreenContentClosed += () =>
+		//         {
+		//             PrintStatus("Rewarded interstitial ad closed.");
+		//             OnAdClosedEvent.Invoke();
+		//         };
+		//         ad.OnAdImpressionRecorded += () =>
+		//         {
+		//             PrintStatus("Rewarded interstitial ad recorded an impression.");
+		//         };
+		//         ad.OnAdClicked += () =>
+		//         {
+		//             PrintStatus("Rewarded interstitial ad recorded a click.");
+		//         };
+		//         ad.OnAdFullScreenContentFailed += (AdError error) =>
+		//         {
+		//             PrintStatus("Rewarded interstitial ad failed to show with error: " +
+		//                         error.GetMessage());
+		//         };
+		//         ad.OnAdPaid += (AdValue adValue) =>
+		//         {
+		//             string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                                         "Rewarded interstitial ad received a paid event.",
+		//                                         adValue.CurrencyCode,
+		//                                         adValue.Value);
+		//             PrintStatus(msg);
+		//         };
+		//     });
+		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_0;
+		L_0 = GoogleAdMobController_CreateAdRequest_mBDBFB4F600EF7A006B611C7F520BCBA8E02BF2FE(__this, NULL);
+		Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E* L_1 = (Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E*)il2cpp_codegen_object_new(Action_2_t090A3AAEE5E3D7EE1ADD68E695C78C769F95302E_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Action_2__ctor_m4ECE211AAB8DF581506D2FB5467656D8A8192C88(L_1, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_0_m752B24E8E322EF295791E072E094E128DF383689_RuntimeMethod_var), NULL);
+		RewardedInterstitialAd_Load_mCC86FA134C260B6F055FB3EE1460FA71E2A1C18D(_stringLiteralB5C88BC08E626365BC4DB139524274BF7D909DBC, L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::ShowRewardedInterstitialAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_ShowRewardedInterstitialAd_m0801EA9F4EE833BDB7E38F1FAD3838B60FFB23DC (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CShowRewardedInterstitialAdU3Eb__28_0_mDD80ACADCED77916AC581077CAFE44E7C382A996_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2A47FBD64FEFEA3B0D4C603CB333467FB4FF315F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (rewardedInterstitialAd != null)
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_0 = __this->___rewardedInterstitialAd_11;
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// rewardedInterstitialAd.Show((Reward reward) =>
+		// {
+		//     PrintStatus("Rewarded interstitial granded a reward: " + reward.Amount);
+		// });
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_1 = __this->___rewardedInterstitialAd_11;
+		Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC* L_2 = (Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC*)il2cpp_codegen_object_new(Action_1_tBD6F5D2699E5306B21143A3CFF0438FBBA10A8CC_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		Action_1__ctor_m387D866A24FCC32F9B78AB9776B1C15352563CA7(L_2, __this, (intptr_t)((void*)GoogleAdMobController_U3CShowRewardedInterstitialAdU3Eb__28_0_mDD80ACADCED77916AC581077CAFE44E7C382A996_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		RewardedInterstitialAd_Show_m94EC715CC0BB7273E1207CAD0B5D6D0E2248363E(L_1, L_2, NULL);
+		return;
+	}
+
+IL_0020:
+	{
+		// PrintStatus("Rewarded interstitial ad is not ready yet.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral2A47FBD64FEFEA3B0D4C603CB333467FB4FF315F, NULL);
+		// }
+		return;
+	}
+}
+// System.Boolean GoogleAdMobController::get_IsAppOpenAdAvailable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAdMobController_get_IsAppOpenAdAvailable_m053F3411DF57073F05D186B78EC26FA7A027E400 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return (appOpenAd != null
+		//         && appOpenAd.CanShowAd()
+		//         && DateTime.Now < appOpenExpireTime);
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_0 = __this->___appOpenAd_7;
+		if (!L_0)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_1 = __this->___appOpenAd_7;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = AppOpenAd_CanShowAd_m822270A031DF79CB0ED3AD52240BC4100F0DFAB1(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_3;
+		L_3 = DateTime_get_Now_mC336498972C48439ADCD5C50D35FAE0F2A48B0F0(NULL);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4 = __this->___appOpenExpireTime_6;
+		bool L_5;
+		L_5 = DateTime_op_LessThan_mC39C4E1CDE23ED2ABA8D1DC9B4283B1BC1ACDB36(L_3, L_4, NULL);
+		return L_5;
+	}
+
+IL_0026:
+	{
+		return (bool)0;
+	}
+}
+// System.Void GoogleAdMobController::OnAppStateChanged(GoogleMobileAds.Common.AppState)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_OnAppStateChanged_m242FA0B108A1064237B69930C88ABBD296C024EF (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, int32_t ___state0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppState_tBC2F72F60F51FE0CB94604F23B86874654E551A5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MobileAdsEventExecutor_t1185FA76E60746A4BF6150BBFC4BD17B123F380A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass31_0_U3COnAppStateChangedU3Eb__0_mA68132FF1450461C95FC412BBC63ECC08204BD1B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral93C343BDBD047E2E494EE31A630425485630C3DB);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03* V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03* L_0 = (U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass31_0__ctor_mD530446B5A6DFBF40261018D4A30A1EFABDAAF60(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03* L_1 = V_0;
+		int32_t L_2 = ___state0;
+		NullCheck(L_1);
+		L_1->___state_0 = L_2;
+		U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03* L_3 = V_0;
+		NullCheck(L_3);
+		L_3->___U3CU3E4__this_1 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E4__this_1), (void*)__this);
+		// UnityEngine.Debug.Log("App State is " + state);
+		U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t* L_5 = (&L_4->___state_0);
+		Il2CppFakeBox<int32_t> L_6(AppState_tBC2F72F60F51FE0CB94604F23B86874654E551A5_il2cpp_TypeInfo_var, L_5);
+		String_t* L_7;
+		L_7 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_6), NULL);
+		String_t* L_8;
+		L_8 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral93C343BDBD047E2E494EE31A630425485630C3DB, L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_8, NULL);
+		// MobileAdsEventExecutor.ExecuteInUpdate(() =>
+		// {
+		//     if (state == AppState.Foreground)
+		//     {
+		//         ShowAppOpenAd();
+		//     }
+		// });
+		U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass31_0_U3COnAppStateChangedU3Eb__0_mA68132FF1450461C95FC412BBC63ECC08204BD1B_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(MobileAdsEventExecutor_t1185FA76E60746A4BF6150BBFC4BD17B123F380A_il2cpp_TypeInfo_var);
+		MobileAdsEventExecutor_ExecuteInUpdate_mE5099EC8616103C5EC42AD9C6E681BD4DE1158BD(L_10, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::RequestAndLoadAppOpenAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_RequestAndLoadAppOpenAd_m565D11E25D38D38C84550C36DE8991E096B6FD08 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_0_mFD7C7609DB52B0A261DABC9552B8C225AF443E96_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2DC63FEC0A54B6D7D957FE891A11D0C271A9B588);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral37907A2B9A1E35536064975B1307D87D69EB3558);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B2_0 = NULL;
+	String_t* G_B1_0 = NULL;
+	{
+		// PrintStatus("Requesting App Open ad.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral2DC63FEC0A54B6D7D957FE891A11D0C271A9B588, NULL);
+		// string adUnitId = "ca-app-pub-3940256099942544/3419835294";
+		// if (appOpenAd != null)
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_0 = __this->___appOpenAd_7;
+		G_B1_0 = _stringLiteral37907A2B9A1E35536064975B1307D87D69EB3558;
+		if (!L_0)
+		{
+			G_B2_0 = _stringLiteral37907A2B9A1E35536064975B1307D87D69EB3558;
+			goto IL_001e;
+		}
+	}
+	{
+		// DestroyAppOpenAd();
+		GoogleAdMobController_DestroyAppOpenAd_mB77EE93F40C43EDBD3746F276A15F8B00B796D79(__this, NULL);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_001e:
+	{
+		// AppOpenAd.Load(adUnitId, ScreenOrientation.Portrait, CreateAdRequest(),
+		//     (AppOpenAd ad, LoadAdError loadError) =>
+		//     {
+		//         if (loadError != null)
+		//         {
+		//             PrintStatus("App open ad failed to load with error: " +
+		//                 loadError.GetMessage());
+		//             return;
+		//         }
+		//         else if (ad == null)
+		//         {
+		//             PrintStatus("App open ad failed to load.");
+		//             return;
+		//         }
+		// 
+		//         PrintStatus("App Open ad loaded. Please background the app and return.");
+		//         this.appOpenAd = ad;
+		//         this.appOpenExpireTime = DateTime.Now + APPOPEN_TIMEOUT;
+		// 
+		//         ad.OnAdFullScreenContentOpened += () =>
+		//         {
+		//             PrintStatus("App open ad opened.");
+		//             OnAdOpeningEvent.Invoke();
+		//         };
+		//         ad.OnAdFullScreenContentClosed += () =>
+		//         {
+		//             PrintStatus("App open ad closed.");
+		//             OnAdClosedEvent.Invoke();
+		//         };
+		//         ad.OnAdImpressionRecorded += () =>
+		//         {
+		//             PrintStatus("App open ad recorded an impression.");
+		//         };
+		//         ad.OnAdClicked += () =>
+		//         {
+		//             PrintStatus("App open ad recorded a click.");
+		//         };
+		//         ad.OnAdFullScreenContentFailed += (AdError error) =>
+		//         {
+		//             PrintStatus("App open ad failed to show with error: " +
+		//                 error.GetMessage());
+		//         };
+		//         ad.OnAdPaid += (AdValue adValue) =>
+		//         {
+		//             string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                                        "App open ad received a paid event.",
+		//                                        adValue.CurrencyCode,
+		//                                        adValue.Value);
+		//             PrintStatus(msg);
+		//         };
+		//     });
+		AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* L_1;
+		L_1 = GoogleAdMobController_CreateAdRequest_mBDBFB4F600EF7A006B611C7F520BCBA8E02BF2FE(__this, NULL);
+		Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580* L_2 = (Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580*)il2cpp_codegen_object_new(Action_2_t18685E5725B772AE298BCD6D1DC4E0B533F30580_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		Action_2__ctor_m6B8C17853413136C6B43C8BEE2C39B36B0F3292D(L_2, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_0_mFD7C7609DB52B0A261DABC9552B8C225AF443E96_RuntimeMethod_var), NULL);
+		AppOpenAd_Load_m42BACDA17E2C7A9C666AC27FBDF5819F5BB2B211(G_B2_0, 1, L_1, L_2, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::DestroyAppOpenAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_DestroyAppOpenAd_mB77EE93F40C43EDBD3746F276A15F8B00B796D79 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (this.appOpenAd != null)
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_0 = __this->___appOpenAd_7;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// this.appOpenAd.Destroy();
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_1 = __this->___appOpenAd_7;
+		NullCheck(L_1);
+		AppOpenAd_Destroy_mD1F8CE10A274F9681F7D7FF7A591781F6A5E5351(L_1, NULL);
+		// this.appOpenAd = null;
+		__this->___appOpenAd_7 = (AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___appOpenAd_7), (void*)(AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC*)NULL);
+	}
+
+IL_001a:
+	{
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::ShowAppOpenAd()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_ShowAppOpenAd_m9BFDDC4C3747994C0A9AA3A3A351A05FB737CF97 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (!IsAppOpenAdAvailable)
+		bool L_0;
+		L_0 = GoogleAdMobController_get_IsAppOpenAdAvailable_m053F3411DF57073F05D186B78EC26FA7A027E400(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0009:
+	{
+		// appOpenAd.Show();
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_1 = __this->___appOpenAd_7;
+		NullCheck(L_1);
+		AppOpenAd_Show_m2037E04CE3FAE7C677CEA702F39C20390CAB9024(L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::OpenAdInspector()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_OpenAdInspector_mF284B5E23AB66495F42F32A76BF0FC3DBD44A12E (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3COpenAdInspectorU3Eb__35_0_m35C1A7E96481013C2DE59C1647A9295E4C21B635_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral25857A0D29D1CB0C2134856FA3BB59D661860EB3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Opening Ad inspector.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral25857A0D29D1CB0C2134856FA3BB59D661860EB3, NULL);
+		// MobileAds.OpenAdInspector((error) =>
+		// {
+		//     if (error != null)
+		//     {
+		//         PrintStatus("Ad inspector failed to open with error: " + error);
+		//     }
+		//     else
+		//     {
+		//         PrintStatus("Ad inspector opened successfully.");
+		//     }
+		// });
+		Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D* L_0 = (Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D*)il2cpp_codegen_object_new(Action_1_t22BCEEA28B80F9170EC19984592D155304718F9D_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Action_1__ctor_mE08E4FD8241A7A7CEAA6987322D9BF039993EDD2(L_0, __this, (intptr_t)((void*)GoogleAdMobController_U3COpenAdInspectorU3Eb__35_0_m35C1A7E96481013C2DE59C1647A9295E4C21B635_RuntimeMethod_var), NULL);
+		MobileAds_OpenAdInspector_mEF370BF5C64B5B7E160D29BB9C38F55F067A420D(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::LoadUmpScene()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_LoadUmpScene_m69FE533BC78AF2C6C84B428999598C754AB2B33B (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral66CAB30E2676BDAED2459E66CB0746B70B05706C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene("GoogleUmpScene");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteral66CAB30E2676BDAED2459E66CB0746B70B05706C, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::PrintStatus(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MobileAdsEventExecutor_t1185FA76E60746A4BF6150BBFC4BD17B123F380A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_0_U3CPrintStatusU3Eb__0_mDF47A48F389E405535CF55BC096A25B7B17D9CFE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D* L_0 = (U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass37_0__ctor_m5ADC7F0DCA6B1F870E12A4C62E059DC11AD79C48(L_0, NULL);
+		U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D* L_1 = L_0;
+		String_t* L_2 = ___message0;
+		NullCheck(L_1);
+		L_1->___message_0 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___message_0), (void*)L_2);
+		// Debug.Log(message);
+		U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D* L_3 = L_1;
+		NullCheck(L_3);
+		String_t* L_4 = L_3->___message_0;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_4, NULL);
+		// MobileAdsEventExecutor.ExecuteInUpdate(() =>
+		// {
+		//     print( message);
+		// });
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_5, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass37_0_U3CPrintStatusU3Eb__0_mDF47A48F389E405535CF55BC096A25B7B17D9CFE_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(MobileAdsEventExecutor_t1185FA76E60746A4BF6150BBFC4BD17B123F380A_il2cpp_TypeInfo_var);
+		MobileAdsEventExecutor_ExecuteInUpdate_mE5099EC8616103C5EC42AD9C6E681BD4DE1158BD(L_5, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GoogleAdMobController::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController__ctor_mA8BE9BBCF920CBCFB52EAACEE3BF955CAC30775E (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private readonly TimeSpan APPOPEN_TIMEOUT = TimeSpan.FromHours(4);
+		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_0;
+		L_0 = TimeSpan_FromHours_mE752300A91D97AB8CCC53CB38547BBEFF601E2C6((4.0), NULL);
+		__this->___APPOPEN_TIMEOUT_5 = L_0;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<HandleInitCompleteAction>b__18_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CHandleInitCompleteActionU3Eb__18_0_m87108B18AC041FF834F897AD6014D53A316213DD (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	{
+		// RequestBannerAd(); //RAR
+		GoogleAdMobController_RequestBannerAd_m780F893846DE887F457C077458F0AE3019752DD8(__this, NULL);
+		// });
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestBannerAd>b__20_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestBannerAdU3Eb__20_0_m2E35E1A565D45CF08DFDEFAD6E58CE606891006C (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9FD316DCDB3554E840BC8AB01E84B7D184B48986);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Banner ad loaded.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral9FD316DCDB3554E840BC8AB01E84B7D184B48986, NULL);
+		// OnAdLoadedEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdLoadedEvent_13;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestBannerAd>b__20_1(GoogleMobileAds.Api.LoadAdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestBannerAdU3Eb__20_1_m111A94B0743085EE42A88F6E5BDD3D4EE59D75FD (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* ___error0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C9CA88675A9235B5EAC2309EBC0152D676C274B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Banner ad failed to load with error: " + error.GetMessage());
+		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_0 = ___error0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C(L_0, NULL);
+		String_t* L_2;
+		L_2 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral7C9CA88675A9235B5EAC2309EBC0152D676C274B, L_1, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_2, NULL);
+		// OnAdFailedToLoadEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_3 = __this->___OnAdFailedToLoadEvent_14;
+		NullCheck(L_3);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_3, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestBannerAd>b__20_2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestBannerAdU3Eb__20_2_mF3058EB75AE103DF237FE482F169C43E83767D7E (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE856FE8A52B189401BF54DD53FB248E3F4712FE4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Banner ad recorded an impression.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralE856FE8A52B189401BF54DD53FB248E3F4712FE4, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestBannerAd>b__20_3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestBannerAdU3Eb__20_3_mEEED078E040B5A600222D109C364D0D1950CB0D5 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0E13354CDFFC86728642DA32EC9BB81C14F24CAE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Banner ad recorded a click.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral0E13354CDFFC86728642DA32EC9BB81C14F24CAE, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestBannerAd>b__20_4()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestBannerAdU3Eb__20_4_m5D168730E54972F7098972459ADDBC166B90801B (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53C4A5383D98C14CE5D02D212618279F2893C4CE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Banner ad opening.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral53C4A5383D98C14CE5D02D212618279F2893C4CE, NULL);
+		// OnAdOpeningEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdOpeningEvent_15;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestBannerAd>b__20_5()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestBannerAdU3Eb__20_5_mD8EAB1B37533439799BA1407530A30701F5ADA1D (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F70D49A3CFBA6BF40F48281D01DD86447513F74);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Banner ad closed.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral9F70D49A3CFBA6BF40F48281D01DD86447513F74, NULL);
+		// OnAdClosedEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdClosedEvent_18;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestBannerAd>b__20_6(GoogleMobileAds.Api.AdValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestBannerAdU3Eb__20_6_m17F9BB960CB016D242F24235BDC0E744B799F2C4 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___adValue0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral12A4CD8E89B5915DD9A4848457D9683685D4FD94);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                             "Banner ad received a paid event.",
+		//                             adValue.CurrencyCode,
+		//                             adValue.Value);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_0 = ___adValue0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdValue_get_CurrencyCode_m2AF57ADB2877FB0408ED804180173807B1459E44_inline(L_0, NULL);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_2 = ___adValue0;
+		NullCheck(L_2);
+		int64_t L_3;
+		L_3 = AdValue_get_Value_mB60399D1CA779A1976CB1F7A905781E262964398_inline(L_2, NULL);
+		int64_t L_4 = L_3;
+		RuntimeObject* L_5 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_4);
+		String_t* L_6;
+		L_6 = String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A(_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A, _stringLiteral12A4CD8E89B5915DD9A4848457D9683685D4FD94, L_1, L_5, NULL);
+		V_0 = L_6;
+		// PrintStatus(msg);
+		String_t* L_7 = V_0;
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_7, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadInterstitialAd>b__22_0(GoogleMobileAds.Api.InterstitialAd,GoogleMobileAds.Api.LoadAdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_0_mD5EDA70A02C94B298E988A1D03B02ED290B5E6E3 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* ___ad0, LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* ___loadError1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_1_m43A42B606B6A2769288AD73A3F004253F9E33DBB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_2_mC9916FA1BC91461CBB4812903AFD0649C55A8C1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_3_mDEC903BB831E9AF7B89270C8DF7F3FF51C35E7AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_4_mAFFE7AEBCFFCCA009AD4FE10F85A5C5AA57F0DF5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_5_mB43792A1FE9210361EB51764DA3B2BF7AEA7669F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_6_mB46BB9847D7DD8CF04A2557AE2181D90DE79ED16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2585C7E772B801BB2F4CE7A57795C519CEAD3944);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB3BF68D83657EB702FC892DA072DC89D0896D5E6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC8124B69AB4415E8EB4986D939AFE0256BB1102D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (loadError != null)
+		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_0 = ___loadError1;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// PrintStatus("Interstitial ad failed to load with error: " +
+		//     loadError.GetMessage());
+		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_1 = ___loadError1;
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralB3BF68D83657EB702FC892DA072DC89D0896D5E6, L_2, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_3, NULL);
+		// return;
+		return;
+	}
+
+IL_001a:
+	{
+		// else if (ad == null)
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_4 = ___ad0;
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		// PrintStatus("Interstitial ad failed to load.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral2585C7E772B801BB2F4CE7A57795C519CEAD3944, NULL);
+		// return;
+		return;
+	}
+
+IL_0029:
+	{
+		// PrintStatus("Interstitial ad loaded.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralC8124B69AB4415E8EB4986D939AFE0256BB1102D, NULL);
+		// interstitialAd = ad;
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_5 = ___ad0;
+		__this->___interstitialAd_9 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___interstitialAd_9), (void*)L_5);
+		// ad.OnAdFullScreenContentOpened += () =>
+		// {
+		//     PrintStatus("Interstitial ad opening.");
+		//     OnAdOpeningEvent.Invoke();
+		// };
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_6 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_7, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_1_m43A42B606B6A2769288AD73A3F004253F9E33DBB_RuntimeMethod_var), NULL);
+		NullCheck(L_6);
+		InterstitialAd_add_OnAdFullScreenContentOpened_mB5E6127049339D2D6BB4ACB8DBBE03A68C4A09AF(L_6, L_7, NULL);
+		// ad.OnAdFullScreenContentClosed += () =>
+		// {
+		//     PrintStatus("Interstitial ad closed.");
+		//     OnAdClosedEvent.Invoke();
+		// 
+		//     RequestAndLoadInterstitialAd(); //RAR
+		// 
+		// };
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_8 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_9, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_2_mC9916FA1BC91461CBB4812903AFD0649C55A8C1F_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		InterstitialAd_add_OnAdFullScreenContentClosed_m752CF051CA5A0DA7F958D5C3A1813F30D09030E7(L_8, L_9, NULL);
+		// ad.OnAdImpressionRecorded += () =>
+		// {
+		//     PrintStatus("Interstitial ad recorded an impression.");
+		// };
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_10 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_11, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_3_mDEC903BB831E9AF7B89270C8DF7F3FF51C35E7AF_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		InterstitialAd_add_OnAdImpressionRecorded_mFB0CE6BF4F2BF99C63D231BBE9B4BF120B11679D(L_10, L_11, NULL);
+		// ad.OnAdClicked += () =>
+		// {
+		//     PrintStatus("Interstitial ad recorded a click.");
+		// };
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_12 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_13 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_13, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_4_mAFFE7AEBCFFCCA009AD4FE10F85A5C5AA57F0DF5_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		InterstitialAd_add_OnAdClicked_mF34B521ECA00D3A4F8E5D977E4BEC134FB95686B(L_12, L_13, NULL);
+		// ad.OnAdFullScreenContentFailed += (AdError error) =>
+		// {
+		//     PrintStatus("Interstitial ad failed to show with error: " +
+		//                 error.GetMessage());
+		// };
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_14 = ___ad0;
+		Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* L_15 = (Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6*)il2cpp_codegen_object_new(Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
+		Action_1__ctor_m3910E81B85E42B809EF801EB5965F0C6CA5CE2A2(L_15, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_5_mB43792A1FE9210361EB51764DA3B2BF7AEA7669F_RuntimeMethod_var), NULL);
+		NullCheck(L_14);
+		InterstitialAd_add_OnAdFullScreenContentFailed_m0A88B3B74B846FCA5CF7BB461E8ABF98FC269C85(L_14, L_15, NULL);
+		// ad.OnAdPaid += (AdValue adValue) =>
+		// {
+		//     string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                                "Interstitial ad received a paid event.",
+		//                                adValue.CurrencyCode,
+		//                                adValue.Value);
+		//     PrintStatus(msg);
+		// };
+		InterstitialAd_t41640B3957C2B66FA5F6F38A4805393B6B013FEC* L_16 = ___ad0;
+		Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* L_17 = (Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF*)il2cpp_codegen_object_new(Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		NullCheck(L_17);
+		Action_1__ctor_m8FFEDDFFF020CA7E1BF034AD737AD1FBB0E447E9(L_17, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_6_mB46BB9847D7DD8CF04A2557AE2181D90DE79ED16_RuntimeMethod_var), NULL);
+		NullCheck(L_16);
+		InterstitialAd_add_OnAdPaid_m3B50D1F1600BDC3552B5A4908A49F5FEA7FFD1A3(L_16, L_17, NULL);
+		// });
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadInterstitialAd>b__22_1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_1_m43A42B606B6A2769288AD73A3F004253F9E33DBB (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral557947CBC7104D12A94110AD755C0924ACCC753E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Interstitial ad opening.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral557947CBC7104D12A94110AD755C0924ACCC753E, NULL);
+		// OnAdOpeningEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdOpeningEvent_15;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadInterstitialAd>b__22_2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_2_mC9916FA1BC91461CBB4812903AFD0649C55A8C1F (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB06A1C48147F9D2C9C7F7A12A70874CA756F2A15);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Interstitial ad closed.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralB06A1C48147F9D2C9C7F7A12A70874CA756F2A15, NULL);
+		// OnAdClosedEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdClosedEvent_18;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// RequestAndLoadInterstitialAd(); //RAR
+		GoogleAdMobController_RequestAndLoadInterstitialAd_m6734DD077590A297481D069ED66F116576DC301D(__this, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadInterstitialAd>b__22_3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_3_mDEC903BB831E9AF7B89270C8DF7F3FF51C35E7AF (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral30131DD4F1A3B8143579AC2B6F65F178240307FE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Interstitial ad recorded an impression.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral30131DD4F1A3B8143579AC2B6F65F178240307FE, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadInterstitialAd>b__22_4()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_4_mAFFE7AEBCFFCCA009AD4FE10F85A5C5AA57F0DF5 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1855D84BB67353C35E90BF3E2DE843D647293B82);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Interstitial ad recorded a click.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral1855D84BB67353C35E90BF3E2DE843D647293B82, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadInterstitialAd>b__22_5(GoogleMobileAds.Api.AdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_5_mB43792A1FE9210361EB51764DA3B2BF7AEA7669F (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdError_tA3BF7518349885A73447524367693A096B3DD1AE* ___error0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral81E3671890324C8BD7C8651AB3E06AC582F77974);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Interstitial ad failed to show with error: " +
+		//             error.GetMessage());
+		AdError_tA3BF7518349885A73447524367693A096B3DD1AE* L_0 = ___error0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C(L_0, NULL);
+		String_t* L_2;
+		L_2 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral81E3671890324C8BD7C8651AB3E06AC582F77974, L_1, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_2, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadInterstitialAd>b__22_6(GoogleMobileAds.Api.AdValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadInterstitialAdU3Eb__22_6_mB46BB9847D7DD8CF04A2557AE2181D90DE79ED16 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___adValue0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral56B647C5A807F01EA99D9BCBAE38AC88312B15BA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                            "Interstitial ad received a paid event.",
+		//                            adValue.CurrencyCode,
+		//                            adValue.Value);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_0 = ___adValue0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdValue_get_CurrencyCode_m2AF57ADB2877FB0408ED804180173807B1459E44_inline(L_0, NULL);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_2 = ___adValue0;
+		NullCheck(L_2);
+		int64_t L_3;
+		L_3 = AdValue_get_Value_mB60399D1CA779A1976CB1F7A905781E262964398_inline(L_2, NULL);
+		int64_t L_4 = L_3;
+		RuntimeObject* L_5 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_4);
+		String_t* L_6;
+		L_6 = String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A(_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A, _stringLiteral56B647C5A807F01EA99D9BCBAE38AC88312B15BA, L_1, L_5, NULL);
+		V_0 = L_6;
+		// PrintStatus(msg);
+		String_t* L_7 = V_0;
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_7, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedAd>b__25_0(GoogleMobileAds.Api.RewardedAd,GoogleMobileAds.Api.LoadAdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_0_m47A1AEE1E9D5BD9DE290B1217BF37F6D83413666 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* ___ad0, LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* ___loadError1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_1_mB4B198EA36EEA782C61BF69BA1075290A8F29610_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_2_m172F35A1C63BDE07D93D05283BA477E8BA6E3FB6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_3_m3A8932721629EF74B694DF5E7184305A1BB4F138_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_4_mF5E58C251E8C7425E86F40FD0E4CBFEDA01E72FC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_5_m091F0B9F113E95653CE8F46B0BE9EA881010D75A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_6_m6DDA9F018BB9EE9793CF8E920618B6A3ED0C57DB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1FB3D0F71AACB93489E409A5C9B706507DCFE1E0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral27846F8E8F9DCFC5AAD0DEE89B82A9E7B58E502C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFAA0677D8B244D4632C646F855DBDA897AF88533);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (loadError != null)
+		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_0 = ___loadError1;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// PrintStatus("Rewarded ad failed to load with error: " +
+		//             loadError.GetMessage());
+		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_1 = ___loadError1;
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralFAA0677D8B244D4632C646F855DBDA897AF88533, L_2, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_3, NULL);
+		// return;
+		return;
+	}
+
+IL_001a:
+	{
+		// else if (ad == null)
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_4 = ___ad0;
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		// PrintStatus("Rewarded ad failed to load.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral27846F8E8F9DCFC5AAD0DEE89B82A9E7B58E502C, NULL);
+		// return;
+		return;
+	}
+
+IL_0029:
+	{
+		// PrintStatus("Rewarded ad loaded.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral1FB3D0F71AACB93489E409A5C9B706507DCFE1E0, NULL);
+		// rewardedAd = ad;
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_5 = ___ad0;
+		__this->___rewardedAd_10 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rewardedAd_10), (void*)L_5);
+		// ad.OnAdFullScreenContentOpened += () =>
+		// {
+		//     PrintStatus("Rewarded ad opening.");
+		//     OnAdOpeningEvent.Invoke();
+		// };
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_6 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_7, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_1_mB4B198EA36EEA782C61BF69BA1075290A8F29610_RuntimeMethod_var), NULL);
+		NullCheck(L_6);
+		RewardedAd_add_OnAdFullScreenContentOpened_m90888ED613765C8605BB70CFE0B3C00A840666D6(L_6, L_7, NULL);
+		// ad.OnAdFullScreenContentClosed += () =>
+		// {
+		//     PrintStatus("Rewarded ad closed.");
+		// 
+		//     RequestAndLoadRewardedAd(); //RAR
+		// 
+		//     OnAdClosedEvent.Invoke();
+		// };
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_8 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_9, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_2_m172F35A1C63BDE07D93D05283BA477E8BA6E3FB6_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		RewardedAd_add_OnAdFullScreenContentClosed_m1D80D5D072FDB7CFBB922CFED5992A1A28EB76F7(L_8, L_9, NULL);
+		// ad.OnAdImpressionRecorded += () =>
+		// {
+		//     PrintStatus("Rewarded ad recorded an impression.");
+		// };
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_10 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_11, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_3_m3A8932721629EF74B694DF5E7184305A1BB4F138_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		RewardedAd_add_OnAdImpressionRecorded_mD7579F4E71DA0D356ACFBD6F332E3BE0398D581C(L_10, L_11, NULL);
+		// ad.OnAdClicked += () =>
+		// {
+		//     PrintStatus("Rewarded ad recorded a click.");
+		// };
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_12 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_13 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_13, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_4_mF5E58C251E8C7425E86F40FD0E4CBFEDA01E72FC_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		RewardedAd_add_OnAdClicked_mC9CD352F1D2043D12EF3BF59F0FBC335F0A664AB(L_12, L_13, NULL);
+		// ad.OnAdFullScreenContentFailed += (AdError error) =>
+		// {
+		//     PrintStatus("Rewarded ad failed to show with error: " +
+		//                error.GetMessage());
+		// };
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_14 = ___ad0;
+		Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* L_15 = (Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6*)il2cpp_codegen_object_new(Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
+		Action_1__ctor_m3910E81B85E42B809EF801EB5965F0C6CA5CE2A2(L_15, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_5_m091F0B9F113E95653CE8F46B0BE9EA881010D75A_RuntimeMethod_var), NULL);
+		NullCheck(L_14);
+		RewardedAd_add_OnAdFullScreenContentFailed_mFC50DBBC23574A8C6CA195F91259C699559BC0D9(L_14, L_15, NULL);
+		// ad.OnAdPaid += (AdValue adValue) =>
+		// {
+		//     string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                                "Rewarded ad received a paid event.",
+		//                                adValue.CurrencyCode,
+		//                                adValue.Value);
+		//     PrintStatus(msg);
+		// };
+		RewardedAd_t6D9A2A205821D735AB48061D75AC8DC4E3FA5D09* L_16 = ___ad0;
+		Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* L_17 = (Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF*)il2cpp_codegen_object_new(Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		NullCheck(L_17);
+		Action_1__ctor_m8FFEDDFFF020CA7E1BF034AD737AD1FBB0E447E9(L_17, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_6_m6DDA9F018BB9EE9793CF8E920618B6A3ED0C57DB_RuntimeMethod_var), NULL);
+		NullCheck(L_16);
+		RewardedAd_add_OnAdPaid_m292BAC920593D4ABEBEBF931F10D642F37828048(L_16, L_17, NULL);
+		// });
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedAd>b__25_1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_1_mB4B198EA36EEA782C61BF69BA1075290A8F29610 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral984C1FC4AA7A7A9A7BBE68C34777A0F81366A0F2);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded ad opening.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral984C1FC4AA7A7A9A7BBE68C34777A0F81366A0F2, NULL);
+		// OnAdOpeningEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdOpeningEvent_15;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedAd>b__25_2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_2_m172F35A1C63BDE07D93D05283BA477E8BA6E3FB6 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE02B73E6BE0EF97EDFF65D9CA934AFCC538789BC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded ad closed.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralE02B73E6BE0EF97EDFF65D9CA934AFCC538789BC, NULL);
+		// RequestAndLoadRewardedAd(); //RAR
+		GoogleAdMobController_RequestAndLoadRewardedAd_mB1775DF36D677412E6C882F45F0D8BDE245719CC(__this, NULL);
+		// OnAdClosedEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdClosedEvent_18;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedAd>b__25_3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_3_m3A8932721629EF74B694DF5E7184305A1BB4F138 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9FF7A2E483EFE984C9DF84AE39387E52B7F7B15F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded ad recorded an impression.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral9FF7A2E483EFE984C9DF84AE39387E52B7F7B15F, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedAd>b__25_4()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_4_mF5E58C251E8C7425E86F40FD0E4CBFEDA01E72FC (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE418146F11583B0E94D48C1BB21A105CF50CF298);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded ad recorded a click.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralE418146F11583B0E94D48C1BB21A105CF50CF298, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedAd>b__25_5(GoogleMobileAds.Api.AdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_5_m091F0B9F113E95653CE8F46B0BE9EA881010D75A (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdError_tA3BF7518349885A73447524367693A096B3DD1AE* ___error0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral71F9F7024ADE86F7DFA4D7C25B0F4E416E65DEB1);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded ad failed to show with error: " +
+		//            error.GetMessage());
+		AdError_tA3BF7518349885A73447524367693A096B3DD1AE* L_0 = ___error0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C(L_0, NULL);
+		String_t* L_2;
+		L_2 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral71F9F7024ADE86F7DFA4D7C25B0F4E416E65DEB1, L_1, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_2, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedAd>b__25_6(GoogleMobileAds.Api.AdValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedAdU3Eb__25_6_m6DDA9F018BB9EE9793CF8E920618B6A3ED0C57DB (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___adValue0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFFBF9A0E9E577C4A844DDC87349090A6719B8993);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                            "Rewarded ad received a paid event.",
+		//                            adValue.CurrencyCode,
+		//                            adValue.Value);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_0 = ___adValue0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdValue_get_CurrencyCode_m2AF57ADB2877FB0408ED804180173807B1459E44_inline(L_0, NULL);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_2 = ___adValue0;
+		NullCheck(L_2);
+		int64_t L_3;
+		L_3 = AdValue_get_Value_mB60399D1CA779A1976CB1F7A905781E262964398_inline(L_2, NULL);
+		int64_t L_4 = L_3;
+		RuntimeObject* L_5 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_4);
+		String_t* L_6;
+		L_6 = String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A(_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A, _stringLiteralFFBF9A0E9E577C4A844DDC87349090A6719B8993, L_1, L_5, NULL);
+		V_0 = L_6;
+		// PrintStatus(msg);
+		String_t* L_7 = V_0;
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_7, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<ShowRewardedAd>b__26_0(GoogleMobileAds.Api.Reward)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CShowRewardedAdU3Eb__26_0_m48DEC104B9170B585A3F97158DA93EE544BA0770 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* ___reward0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8CEF24EBCDB4FDC85824664D715238B79AB6463);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded ad granted a reward: " + reward.Amount);
+		Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* L_0 = ___reward0;
+		NullCheck(L_0);
+		double* L_1 = (&L_0->___Amount_2);
+		String_t* L_2;
+		L_2 = Double_ToString_m7499A5D792419537DCB9470A3675CEF5117DE339(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralA8CEF24EBCDB4FDC85824664D715238B79AB6463, L_2, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_3, NULL);
+		// });
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedInterstitialAd>b__27_0(GoogleMobileAds.Api.RewardedInterstitialAd,GoogleMobileAds.Api.LoadAdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_0_m752B24E8E322EF295791E072E094E128DF383689 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* ___ad0, LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* ___loadError1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_1_m23010C3ADB6D0C2DB9F015E1C5D464CCE35D505E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_2_m617AF786FD6B6C297BD9F7C95596861B13AD4DA5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_3_m94C3D84E7BAB1F622DCE46FB7617F85C31C22640_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_4_m7EC8E611D1E7ED9A9B1F19F4ECB43B09E2B11E14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_5_m2423180A6A561A62E6A706C15C9587DEBD7B1550_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_6_mFE80159AE292EB32547C3231ECD1B0A987033BAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC76DF77A3EF4FC74768C0A2D246E58231B842A5A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDF950C75FC33D6F89E644D6B4612500EB916FF79);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF1E3E7FFF19723E09C1BECEF3CC2D7A9D6F87978);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (loadError != null)
+		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_0 = ___loadError1;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// PrintStatus("Rewarded interstitial ad failed to load with error: " +
+		//             loadError.GetMessage());
+		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_1 = ___loadError1;
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralC76DF77A3EF4FC74768C0A2D246E58231B842A5A, L_2, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_3, NULL);
+		// return;
+		return;
+	}
+
+IL_001a:
+	{
+		// else if (ad == null)
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_4 = ___ad0;
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		// PrintStatus("Rewarded interstitial ad failed to load.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralDF950C75FC33D6F89E644D6B4612500EB916FF79, NULL);
+		// return;
+		return;
+	}
+
+IL_0029:
+	{
+		// PrintStatus("Rewarded interstitial ad loaded.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralF1E3E7FFF19723E09C1BECEF3CC2D7A9D6F87978, NULL);
+		// rewardedInterstitialAd = ad;
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_5 = ___ad0;
+		__this->___rewardedInterstitialAd_11 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rewardedInterstitialAd_11), (void*)L_5);
+		// ad.OnAdFullScreenContentOpened += () =>
+		// {
+		//     PrintStatus("Rewarded interstitial ad opening.");
+		//     OnAdOpeningEvent.Invoke();
+		// };
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_6 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_7, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_1_m23010C3ADB6D0C2DB9F015E1C5D464CCE35D505E_RuntimeMethod_var), NULL);
+		NullCheck(L_6);
+		RewardedInterstitialAd_add_OnAdFullScreenContentOpened_m96432FC5B54D014F1238FAEE85F1B7F1CFFA6C33(L_6, L_7, NULL);
+		// ad.OnAdFullScreenContentClosed += () =>
+		// {
+		//     PrintStatus("Rewarded interstitial ad closed.");
+		//     OnAdClosedEvent.Invoke();
+		// };
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_8 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_9, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_2_m617AF786FD6B6C297BD9F7C95596861B13AD4DA5_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		RewardedInterstitialAd_add_OnAdFullScreenContentClosed_m5D29C92E895DBCD5CED5F7CCB96DBFDCFF66D9AA(L_8, L_9, NULL);
+		// ad.OnAdImpressionRecorded += () =>
+		// {
+		//     PrintStatus("Rewarded interstitial ad recorded an impression.");
+		// };
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_10 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_11, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_3_m94C3D84E7BAB1F622DCE46FB7617F85C31C22640_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		RewardedInterstitialAd_add_OnAdImpressionRecorded_m41AA95AB9C6C78C845A6BA1DAF707A752FB14DAB(L_10, L_11, NULL);
+		// ad.OnAdClicked += () =>
+		// {
+		//     PrintStatus("Rewarded interstitial ad recorded a click.");
+		// };
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_12 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_13 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_13, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_4_m7EC8E611D1E7ED9A9B1F19F4ECB43B09E2B11E14_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		RewardedInterstitialAd_add_OnAdClicked_m4DDD4B733CA39E4016F665C33D65D3147A274C3F(L_12, L_13, NULL);
+		// ad.OnAdFullScreenContentFailed += (AdError error) =>
+		// {
+		//     PrintStatus("Rewarded interstitial ad failed to show with error: " +
+		//                 error.GetMessage());
+		// };
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_14 = ___ad0;
+		Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* L_15 = (Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6*)il2cpp_codegen_object_new(Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
+		Action_1__ctor_m3910E81B85E42B809EF801EB5965F0C6CA5CE2A2(L_15, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_5_m2423180A6A561A62E6A706C15C9587DEBD7B1550_RuntimeMethod_var), NULL);
+		NullCheck(L_14);
+		RewardedInterstitialAd_add_OnAdFullScreenContentFailed_m00FC7F022CB2D11C511B6FDC5DA7E59704721191(L_14, L_15, NULL);
+		// ad.OnAdPaid += (AdValue adValue) =>
+		// {
+		//     string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                                 "Rewarded interstitial ad received a paid event.",
+		//                                 adValue.CurrencyCode,
+		//                                 adValue.Value);
+		//     PrintStatus(msg);
+		// };
+		RewardedInterstitialAd_t5E0B1087E71C016DFDC50BBFBAA8A2CCEFEA58AE* L_16 = ___ad0;
+		Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* L_17 = (Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF*)il2cpp_codegen_object_new(Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		NullCheck(L_17);
+		Action_1__ctor_m8FFEDDFFF020CA7E1BF034AD737AD1FBB0E447E9(L_17, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_6_mFE80159AE292EB32547C3231ECD1B0A987033BAD_RuntimeMethod_var), NULL);
+		NullCheck(L_16);
+		RewardedInterstitialAd_add_OnAdPaid_m61642D408C52ADA6C593D22FD4EE2DCC4126AB4A(L_16, L_17, NULL);
+		// });
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedInterstitialAd>b__27_1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_1_m23010C3ADB6D0C2DB9F015E1C5D464CCE35D505E (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral83C8FF61693717E85BB85B87079F36D7A22B4004);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded interstitial ad opening.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral83C8FF61693717E85BB85B87079F36D7A22B4004, NULL);
+		// OnAdOpeningEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdOpeningEvent_15;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedInterstitialAd>b__27_2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_2_m617AF786FD6B6C297BD9F7C95596861B13AD4DA5 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E7986C599881198351373DFA64703BB0C0A0432);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded interstitial ad closed.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral6E7986C599881198351373DFA64703BB0C0A0432, NULL);
+		// OnAdClosedEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdClosedEvent_18;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedInterstitialAd>b__27_3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_3_m94C3D84E7BAB1F622DCE46FB7617F85C31C22640 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2EAAB770ADEDA7FB8AEA914555A59728BC27D0D8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded interstitial ad recorded an impression.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral2EAAB770ADEDA7FB8AEA914555A59728BC27D0D8, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedInterstitialAd>b__27_4()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_4_m7EC8E611D1E7ED9A9B1F19F4ECB43B09E2B11E14 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9467F80ADE2284A2EFDDA89F430A6C07887B47BB);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded interstitial ad recorded a click.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral9467F80ADE2284A2EFDDA89F430A6C07887B47BB, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedInterstitialAd>b__27_5(GoogleMobileAds.Api.AdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_5_m2423180A6A561A62E6A706C15C9587DEBD7B1550 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdError_tA3BF7518349885A73447524367693A096B3DD1AE* ___error0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47D494C3753404D70E19AC040E8576F84FD2F87D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded interstitial ad failed to show with error: " +
+		//             error.GetMessage());
+		AdError_tA3BF7518349885A73447524367693A096B3DD1AE* L_0 = ___error0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C(L_0, NULL);
+		String_t* L_2;
+		L_2 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral47D494C3753404D70E19AC040E8576F84FD2F87D, L_1, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_2, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadRewardedInterstitialAd>b__27_6(GoogleMobileAds.Api.AdValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadRewardedInterstitialAdU3Eb__27_6_mFE80159AE292EB32547C3231ECD1B0A987033BAD (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___adValue0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCC7AC7972FA936EC38F58B7B8FCF084432CA5039);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                             "Rewarded interstitial ad received a paid event.",
+		//                             adValue.CurrencyCode,
+		//                             adValue.Value);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_0 = ___adValue0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdValue_get_CurrencyCode_m2AF57ADB2877FB0408ED804180173807B1459E44_inline(L_0, NULL);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_2 = ___adValue0;
+		NullCheck(L_2);
+		int64_t L_3;
+		L_3 = AdValue_get_Value_mB60399D1CA779A1976CB1F7A905781E262964398_inline(L_2, NULL);
+		int64_t L_4 = L_3;
+		RuntimeObject* L_5 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_4);
+		String_t* L_6;
+		L_6 = String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A(_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A, _stringLiteralCC7AC7972FA936EC38F58B7B8FCF084432CA5039, L_1, L_5, NULL);
+		V_0 = L_6;
+		// PrintStatus(msg);
+		String_t* L_7 = V_0;
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_7, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<ShowRewardedInterstitialAd>b__28_0(GoogleMobileAds.Api.Reward)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CShowRewardedInterstitialAdU3Eb__28_0_mDD80ACADCED77916AC581077CAFE44E7C382A996 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* ___reward0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFF74C44E68D85E93EFEB3292C6B9D79D65F534AA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("Rewarded interstitial granded a reward: " + reward.Amount);
+		Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* L_0 = ___reward0;
+		NullCheck(L_0);
+		double* L_1 = (&L_0->___Amount_2);
+		String_t* L_2;
+		L_2 = Double_ToString_m7499A5D792419537DCB9470A3675CEF5117DE339(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralFF74C44E68D85E93EFEB3292C6B9D79D65F534AA, L_2, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_3, NULL);
+		// });
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadAppOpenAd>b__32_0(GoogleMobileAds.Api.AppOpenAd,GoogleMobileAds.Api.LoadAdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_0_mFD7C7609DB52B0A261DABC9552B8C225AF443E96 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* ___ad0, LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* ___loadError1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_1_m86DC20017CCA1992E6AFB3E6D64A6690E109CB5F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_2_mD87CEC0B6C3807ACFC6D932B2A77B4B20FEB5BCB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_3_mB38644CD28D24029790537A06B13E7025D28630E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_4_m9A1EB034EBD783B4DF35FAAAA24F3E1E57E25C49_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_5_mD7425D15913B6CCE656B03F889896E95541B0052_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_6_mE0F2F1B64C35D9BC01E463CCB2FE95AD764C7E94_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAD3518EC06BB29C9EBD2FCB5F273A28C8EBDBED3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF9B4CADDF0DDAE0A5612746B2DA04764DE738AF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF1235716461AE965FE53CB513412DBB0E944B470);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (loadError != null)
+		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_0 = ___loadError1;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// PrintStatus("App open ad failed to load with error: " +
+		//     loadError.GetMessage());
+		LoadAdError_t22654493F27C801157B803019F04E69E66CD4A62* L_1 = ___loadError1;
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralCF9B4CADDF0DDAE0A5612746B2DA04764DE738AF, L_2, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_3, NULL);
+		// return;
+		return;
+	}
+
+IL_001a:
+	{
+		// else if (ad == null)
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_4 = ___ad0;
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		// PrintStatus("App open ad failed to load.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralAD3518EC06BB29C9EBD2FCB5F273A28C8EBDBED3, NULL);
+		// return;
+		return;
+	}
+
+IL_0029:
+	{
+		// PrintStatus("App Open ad loaded. Please background the app and return.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralF1235716461AE965FE53CB513412DBB0E944B470, NULL);
+		// this.appOpenAd = ad;
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_5 = ___ad0;
+		__this->___appOpenAd_7 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___appOpenAd_7), (void*)L_5);
+		// this.appOpenExpireTime = DateTime.Now + APPOPEN_TIMEOUT;
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_6;
+		L_6 = DateTime_get_Now_mC336498972C48439ADCD5C50D35FAE0F2A48B0F0(NULL);
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_7 = __this->___APPOPEN_TIMEOUT_5;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_8;
+		L_8 = DateTime_op_Addition_m23FACB2D207CB24BE0E9C06AB4CF8CE0C4F0CAD8(L_6, L_7, NULL);
+		__this->___appOpenExpireTime_6 = L_8;
+		// ad.OnAdFullScreenContentOpened += () =>
+		// {
+		//     PrintStatus("App open ad opened.");
+		//     OnAdOpeningEvent.Invoke();
+		// };
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_9 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_1_m86DC20017CCA1992E6AFB3E6D64A6690E109CB5F_RuntimeMethod_var), NULL);
+		NullCheck(L_9);
+		AppOpenAd_add_OnAdFullScreenContentOpened_m5BF498515C6EE855420C3C368C62385C2BF7F7BA(L_9, L_10, NULL);
+		// ad.OnAdFullScreenContentClosed += () =>
+		// {
+		//     PrintStatus("App open ad closed.");
+		//     OnAdClosedEvent.Invoke();
+		// };
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_11 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_12 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_12);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_12, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_2_mD87CEC0B6C3807ACFC6D932B2A77B4B20FEB5BCB_RuntimeMethod_var), NULL);
+		NullCheck(L_11);
+		AppOpenAd_add_OnAdFullScreenContentClosed_m9AFCAA1DF7CF8CCD46B3E62169ADA2B02D49C2CD(L_11, L_12, NULL);
+		// ad.OnAdImpressionRecorded += () =>
+		// {
+		//     PrintStatus("App open ad recorded an impression.");
+		// };
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_13 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_14 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_14, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_3_mB38644CD28D24029790537A06B13E7025D28630E_RuntimeMethod_var), NULL);
+		NullCheck(L_13);
+		AppOpenAd_add_OnAdImpressionRecorded_m55A3EAAD5487C15D84F17B6BA8C74C1FDF35F971(L_13, L_14, NULL);
+		// ad.OnAdClicked += () =>
+		// {
+		//     PrintStatus("App open ad recorded a click.");
+		// };
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_15 = ___ad0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_16 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_16);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_16, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_4_m9A1EB034EBD783B4DF35FAAAA24F3E1E57E25C49_RuntimeMethod_var), NULL);
+		NullCheck(L_15);
+		AppOpenAd_add_OnAdClicked_m5AC8D58C568C6B5AAAF8916DBABFF805B62904BA(L_15, L_16, NULL);
+		// ad.OnAdFullScreenContentFailed += (AdError error) =>
+		// {
+		//     PrintStatus("App open ad failed to show with error: " +
+		//         error.GetMessage());
+		// };
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_17 = ___ad0;
+		Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6* L_18 = (Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6*)il2cpp_codegen_object_new(Action_1_t069366F3AD155AB4638C995045E0A7F46361C0C6_il2cpp_TypeInfo_var);
+		NullCheck(L_18);
+		Action_1__ctor_m3910E81B85E42B809EF801EB5965F0C6CA5CE2A2(L_18, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_5_mD7425D15913B6CCE656B03F889896E95541B0052_RuntimeMethod_var), NULL);
+		NullCheck(L_17);
+		AppOpenAd_add_OnAdFullScreenContentFailed_m4D52DC4F7D85A0DA305BAAAD27031C528006CE44(L_17, L_18, NULL);
+		// ad.OnAdPaid += (AdValue adValue) =>
+		// {
+		//     string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                                "App open ad received a paid event.",
+		//                                adValue.CurrencyCode,
+		//                                adValue.Value);
+		//     PrintStatus(msg);
+		// };
+		AppOpenAd_tF3D4C7489EF9689BE192F2379D10A39A26B82DAC* L_19 = ___ad0;
+		Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF* L_20 = (Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF*)il2cpp_codegen_object_new(Action_1_t96EA761F7BE52B89F4904338B4DF546EB9F1FAFF_il2cpp_TypeInfo_var);
+		NullCheck(L_20);
+		Action_1__ctor_m8FFEDDFFF020CA7E1BF034AD737AD1FBB0E447E9(L_20, __this, (intptr_t)((void*)GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_6_mE0F2F1B64C35D9BC01E463CCB2FE95AD764C7E94_RuntimeMethod_var), NULL);
+		NullCheck(L_19);
+		AppOpenAd_add_OnAdPaid_mC6A173F1C25378D51E0CA1EE26AC1D175E50918D(L_19, L_20, NULL);
+		// });
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadAppOpenAd>b__32_1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_1_m86DC20017CCA1992E6AFB3E6D64A6690E109CB5F (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral08BA74A81A934AF9DA706C535EB07F526AD6A5DA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("App open ad opened.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral08BA74A81A934AF9DA706C535EB07F526AD6A5DA, NULL);
+		// OnAdOpeningEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdOpeningEvent_15;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadAppOpenAd>b__32_2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_2_mD87CEC0B6C3807ACFC6D932B2A77B4B20FEB5BCB (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5C05F1E0B6C0273BEE770A0FB466DBCBEF4F0DB1);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("App open ad closed.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral5C05F1E0B6C0273BEE770A0FB466DBCBEF4F0DB1, NULL);
+		// OnAdClosedEvent.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___OnAdClosedEvent_18;
+		NullCheck(L_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_0, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadAppOpenAd>b__32_3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_3_mB38644CD28D24029790537A06B13E7025D28630E (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE9D7A53879ED01C7496E70BD3C0456EE5AA536EA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("App open ad recorded an impression.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteralE9D7A53879ED01C7496E70BD3C0456EE5AA536EA, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadAppOpenAd>b__32_4()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_4_m9A1EB034EBD783B4DF35FAAAA24F3E1E57E25C49 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral22AD86993505183AF36FD866B24688BCA5EB6920);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("App open ad recorded a click.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral22AD86993505183AF36FD866B24688BCA5EB6920, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadAppOpenAd>b__32_5(GoogleMobileAds.Api.AdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_5_mD7425D15913B6CCE656B03F889896E95541B0052 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdError_tA3BF7518349885A73447524367693A096B3DD1AE* ___error0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC1226F1B10B458B1321D5094305DA543F5D145AC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PrintStatus("App open ad failed to show with error: " +
+		//     error.GetMessage());
+		AdError_tA3BF7518349885A73447524367693A096B3DD1AE* L_0 = ___error0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdError_GetMessage_m1D90CEA0A4CE678016C5D06D73C3F111D6BA370C(L_0, NULL);
+		String_t* L_2;
+		L_2 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralC1226F1B10B458B1321D5094305DA543F5D145AC, L_1, NULL);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_2, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<RequestAndLoadAppOpenAd>b__32_6(GoogleMobileAds.Api.AdValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3CRequestAndLoadAppOpenAdU3Eb__32_6_mE0F2F1B64C35D9BC01E463CCB2FE95AD764C7E94 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___adValue0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral347D4DE8CE1C45240E035D2BE1AE28F657D964A8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// string msg = string.Format("{0} (currency: {1}, value: {2}",
+		//                            "App open ad received a paid event.",
+		//                            adValue.CurrencyCode,
+		//                            adValue.Value);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_0 = ___adValue0;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = AdValue_get_CurrencyCode_m2AF57ADB2877FB0408ED804180173807B1459E44_inline(L_0, NULL);
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_2 = ___adValue0;
+		NullCheck(L_2);
+		int64_t L_3;
+		L_3 = AdValue_get_Value_mB60399D1CA779A1976CB1F7A905781E262964398_inline(L_2, NULL);
+		int64_t L_4 = L_3;
+		RuntimeObject* L_5 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_4);
+		String_t* L_6;
+		L_6 = String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A(_stringLiteral9F9A843BDDA642A0EE8E37174DF3B24D5D4EE68A, _stringLiteral347D4DE8CE1C45240E035D2BE1AE28F657D964A8, L_1, L_5, NULL);
+		V_0 = L_6;
+		// PrintStatus(msg);
+		String_t* L_7 = V_0;
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, L_7, NULL);
+		// };
+		return;
+	}
+}
+// System.Void GoogleAdMobController::<OpenAdInspector>b__35_0(GoogleMobileAds.Api.AdInspectorError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAdMobController_U3COpenAdInspectorU3Eb__35_0_m35C1A7E96481013C2DE59C1647A9295E4C21B635 (GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* __this, AdInspectorError_tD384323496C44553EA9EA953DBCFE6D24BC0534D* ___error0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3273D0FC6DAFA8FD3796986EA6BB6B76EA162864);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral73DFF2E0F4C1BD6A598C6066DDBAA7F6C2EFD836);
+		s_Il2CppMethodInitialized = true;
+	}
+	AdInspectorError_tD384323496C44553EA9EA953DBCFE6D24BC0534D* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* G_B3_2 = NULL;
+	AdInspectorError_tD384323496C44553EA9EA953DBCFE6D24BC0534D* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* G_B2_2 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B4_1 = NULL;
+	GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* G_B4_2 = NULL;
+	{
+		// if (error != null)
+		AdInspectorError_tD384323496C44553EA9EA953DBCFE6D24BC0534D* L_0 = ___error0;
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		// PrintStatus("Ad inspector failed to open with error: " + error);
+		AdInspectorError_tD384323496C44553EA9EA953DBCFE6D24BC0534D* L_1 = ___error0;
+		AdInspectorError_tD384323496C44553EA9EA953DBCFE6D24BC0534D* L_2 = L_1;
+		G_B2_0 = L_2;
+		G_B2_1 = _stringLiteral3273D0FC6DAFA8FD3796986EA6BB6B76EA162864;
+		G_B2_2 = __this;
+		if (L_2)
+		{
+			G_B3_0 = L_2;
+			G_B3_1 = _stringLiteral3273D0FC6DAFA8FD3796986EA6BB6B76EA162864;
+			G_B3_2 = __this;
+			goto IL_0011;
+		}
+	}
+	{
+		G_B4_0 = ((String_t*)(NULL));
+		G_B4_1 = G_B2_1;
+		G_B4_2 = G_B2_2;
+		goto IL_0016;
+	}
+
+IL_0011:
+	{
+		NullCheck(G_B3_0);
+		String_t* L_3;
+		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B3_0);
+		G_B4_0 = L_3;
+		G_B4_1 = G_B3_1;
+		G_B4_2 = G_B3_2;
+	}
+
+IL_0016:
+	{
+		String_t* L_4;
+		L_4 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(G_B4_1, G_B4_0, NULL);
+		NullCheck(G_B4_2);
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(G_B4_2, L_4, NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		// PrintStatus("Ad inspector opened successfully.");
+		GoogleAdMobController_PrintStatus_m42A5F819F73C33AF748F3BC489E237A663D0472D(__this, _stringLiteral73DFF2E0F4C1BD6A598C6066DDBAA7F6C2EFD836, NULL);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GoogleAdMobController/<>c__DisplayClass31_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass31_0__ctor_mD530446B5A6DFBF40261018D4A30A1EFABDAAF60 (U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void GoogleAdMobController/<>c__DisplayClass31_0::<OnAppStateChanged>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass31_0_U3COnAppStateChangedU3Eb__0_mA68132FF1450461C95FC412BBC63ECC08204BD1B (U3CU3Ec__DisplayClass31_0_t93BF39452C7C7910E02F5E0EC4437C878CCD5E03* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (state == AppState.Foreground)
+		int32_t L_0 = __this->___state_0;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		// ShowAppOpenAd();
+		GoogleAdMobController_tA67725E06A75AB353EF78F847737BC7624E15704* L_1 = __this->___U3CU3E4__this_1;
+		NullCheck(L_1);
+		GoogleAdMobController_ShowAppOpenAd_m9BFDDC4C3747994C0A9AA3A3A351A05FB737CF97(L_1, NULL);
+	}
+
+IL_0014:
+	{
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GoogleAdMobController/<>c__DisplayClass37_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_m5ADC7F0DCA6B1F870E12A4C62E059DC11AD79C48 (U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void GoogleAdMobController/<>c__DisplayClass37_0::<PrintStatus>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CPrintStatusU3Eb__0_mDF47A48F389E405535CF55BC096A25B7B17D9CFE (U3CU3Ec__DisplayClass37_0_tDF7A93109CA9B6B4E397F50471DD6980BAEE028D* __this, const RuntimeMethod* method) 
+{
+	{
+		// print( message);
+		String_t* L_0 = __this->___message_0;
+		MonoBehaviour_print_mED815C779E369787B3E9646A6DE96FBC2944BF0B(L_0, NULL);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AdValue_get_CurrencyCode_m2AF57ADB2877FB0408ED804180173807B1459E44_inline (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CCurrencyCodeU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t AdValue_get_Value_mB60399D1CA779A1976CB1F7A905781E262964398_inline (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, const RuntimeMethod* method) 
+{
+	{
+		int64_t L_0 = __this->___U3CValueU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->____version_3;
+		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)__this->____items_1;
+		V_0 = L_1;
+		int32_t L_2 = (int32_t)__this->____size_2;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___item0;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___item0;
+		((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
+		return;
+	}
+}
